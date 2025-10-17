@@ -1,0 +1,294 @@
+@import url("header.css");
+@import url("burger.css");
+@import url("notification.css");
+@import url("body.css");
+@import url("titles.css");
+@import url("main.css");
+@import url("footer.css");
+@import url("button_top.css");
+@import url("custom_button.css");
+
+
+:root{
+    --background: 
+}
+
+
+
+body{
+    background: rgb(34, 40, 49);
+    
+}
+
+.container{
+    position: relative;
+    padding: 1rem;
+    border-radius: 10px;
+    background: rgba(9, 41, 223, 0.318);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    overflow: hidden;
+    max-width: 1400px;
+    margin: 2rem auto;
+}
+
+
+.registration a{
+    color: rgb(222, 136, 11);
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.registration h3{
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    line-height: 0.8;
+    
+}
+
+.registration h3::after{
+    content: ' ';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background: #fff;  
+}
+
+form > *{
+    min-width: 0;
+}
+
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        "name date"
+        "tel email"
+        "passfield passfield"
+        "aboutme aboutme"
+        "agreement ."
+        "submit .";
+    width: 100%;
+    margin: 2rem auto;
+    padding: 2rem;
+    font-size: 1rem;
+    gap: 0.8rem;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.05);
+    border: inherit;
+    border-radius: inherit;
+    border: inherit;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+
+.form_element {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form_element label {
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+}
+
+
+.form_element input::placeholder,
+.form_element textarea::placeholder{
+    color: #1c4390;
+    font-weight: 500;
+}
+
+.form_element input,
+.form_element textarea {
+    border-radius: 35px;
+    outline: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 16ppx;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: 
+        background 0.4s ease,
+        border-color 0.4s ease,
+        box-shadow 0.4s ease,
+        transform 0.3s ease;
+    resize: none;
+}
+
+
+.form_element textarea{
+    resize: none;
+    width: 100%;
+    min-width: 0;
+    min-height: 100px;
+    max-height: 250px;
+    width: 100%;
+}
+
+.form_element input::placeholder,
+.form_element textarea::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+.form_element input:hover,
+.form_element textarea:hover {
+    background: rgba(255, 255, 255, 0.35);
+    border-color: var(--accent-color);
+    transform: translateY(-2px);
+}
+
+.form_element input:focus,
+.form_element textarea:focus{
+    outline: none;
+    background-color: #cce7ff;
+    color: black;
+    transform: translateY(-3px);
+}
+
+.form_element input:focus::placeholder,
+.form_element textarea:focus::placeholder{
+    color: black;
+}
+
+input[type="checkbox"]{
+    margin-right: 0.5rem;
+    transform: scale(1.2);
+    cursor: pointer;
+    accent-color: #3366cc;
+}
+
+
+
+.form_element input[type="submit"]{
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 35px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    align-self: flex-start;
+}
+
+.form_element input[type="submit"]:hover{
+    background-color: #DE880B;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(222, 136, 11, 0.6);
+}
+
+
+fieldset.pass-field {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 1rem;
+    min-width: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+
+}
+
+fieldset.pass-field legend {
+    grid-column: 1 / -1;
+    padding: 0 0.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+fieldset.pass-field > div {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+fieldset.pass-field input{
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+
+
+.form_element.name{
+    grid-area: name;
+}
+
+.form_element.date{
+    grid-area: date;
+}
+
+.form_element.tel{
+    grid-area: tel;
+}
+
+.form_element.email{
+    grid-area: email;
+}
+
+.form_element.pass-field{
+    grid-area: passfield;
+}
+
+.form_element.aboutme{
+    grid-area: aboutme;
+}
+
+.form_element.agreement{
+    grid-area: agreement;
+}
+
+.form_element.submit{
+    grid-area: submit;
+}
+
+
+@media (max-width: 712px) {
+    form {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "name"
+            "date"
+            "tel"
+            "email"
+            "passfield"
+            "aboutme"
+            "agreement"
+            "submit";
+        gap: .5rem;
+        /* width: 90%; */
+    }
+
+    fieldset.pass-field {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,223 @@
+@import url("header.css");
+@import url("burger.css");
+@import url("notification.css");
+@import url("body.css");
+@import url("titles.css");
+@import url("main.css");
+@import url("footer.css");
+@import url("button_top.css");
+
+
+:root{
+    --background: rgba(9, 41, 223, 0.318);
+    --border: 1px solid rgba(255, 255, 255, 0.1);
+    --border-right: 1px solid rgba(255, 255, 255, 0.1);
+    --border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    --border-radius: 10px;
+    --backdrop-filter: blur(5px);
+    --box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+
+body{
+    background: rgb(34, 40, 49);
+    
+}
+
+
+.container{
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-auth{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    min-height: 350px;
+    padding: 10px 40px;
+    background: var(--background);
+    border: var(--border);
+    border-right: var(--border-right);
+    border-bottom: var(--border-bottom);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    backdrop-filter: var(--backdrop-filter);
+    z-index: 0;
+}
+
+.name-entrance{
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    
+}
+
+.name-entrance::after{
+    content: ' ';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background: #fff;  
+}
+
+
+.input-block{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+
+.input-block input{
+    border-radius: 35px;
+    outline: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 16ppx;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.input-block input::placeholder{
+    color: #fff;
+}
+
+
+
+.input-block input[type="submit"]{
+    background: #fff;
+    color: #666;
+    max-width: 100px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.input-block input[type="submit"]:hover {
+    background: #DE880B;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(222, 136, 11, 0.6);
+}
+
+.link-block{
+    margin-top: 15px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.link-block p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.link-block a{
+    color: rgb(222, 136, 11);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.square{
+    position: absolute;
+    background: var(--background);
+    border: var(--border);
+    border-right: var(--border-right);
+    border-bottom: var(--border-bottom);
+    border-radius: var(--border-radius);
+    backdrop-filter:var(--backdrop-filter);
+    box-shadow: var(--box-shadow);
+    transition: all 0.3s ease;
+    animation: animate 10s linear infinite;
+    animation-delay: calc(-1s * var(--i));
+}
+
+
+@media (max-width: 600px){
+    .square{
+        display: none;
+    }
+}
+
+@keyframes animate{
+    0%, 100%{
+        transform: translateY(-40px);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+}
+
+.square:nth-child(1){
+    top: calc(50% - 12rem);
+    right: calc(50% - 15rem);
+    width: 100px;
+    height: 100px;
+    z-index: 0;
+}
+
+
+.square:nth-child(2){
+    top: calc(50%);
+    left: calc(50% - 18rem);
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+    /* opacity: 0.5; */
+}
+
+
+.square:nth-child(3){
+    top: calc(50% - 15rem);
+    left: calc(50% - 5rem);
+    width: 55px;
+    height: 55px;
+    z-index: 0;
+    /* opacity: 0.8; */
+}
+
+
+.square:nth-child(4){
+    top: calc(50% + 2rem);
+    right: calc(50% - 15rem);
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+    /* opacity: 0.8; */
+}
+
+
+.square:nth-child(5){
+    bottom: calc(50% - 15rem);
+    left: calc(50% - 6rem);
+    width: 45px;
+    height: 45px;
+    z-index: 1;
+    /* opacity: 0.8; */
+}

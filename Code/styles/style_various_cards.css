@@ -1,0 +1,24 @@
+@import url("header.css");
+@import url("burger.css");
+@import url("notification.css");
+@import url("body.css");
+@import url("titles.css");
+@import url("main.css");
+@import url("footer.css");
+@import url("button_top.css");
+
+@import url("paralleliogram_card.css");
+@import url("blur_card.css");
+@import url("ray_card.css");
+
+
+main{
+    max-width: 100%;
+    padding: 0;
+}
+
+footer{
+    margin: 0;
+}
+
+

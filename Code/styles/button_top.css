@@ -1,0 +1,20 @@
+#button__top{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 50px;
+    bottom: 50px;
+    padding: 10px;
+    background-color: #d0dbf3;
+    border: 3px #1586f7 solid;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    transition: 0.3s;
+    z-index: 100;
+}
+
+#button__top:hover{
+    background-color: #b3c9f7;
+}

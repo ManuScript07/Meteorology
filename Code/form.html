@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="icon" type = "image\png" href="source/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style_form.css">
+</head>
+<body>
+    <div id="Top"></div>
+    <header>
+        <div class = "logo-block">
+            <a href="#Top"><img src="source/favicon.png" alt="Логотиип"></a>
+            <div class="logo-text">
+                <h1 id="site-name">Метеорология.ру</h1>
+                <p><i>Погода Советы Новости</i></p>
+            </div>
+        </div>
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="burger">
+            <span></span>
+        </label>
+        <nav>
+            <ul type = "disk">
+                <li><a href="#ForecastForTheWeek">Прогноз на неделю</a></li>
+                <li><a href="#ForecastOnTheMap">Прогноз на карте</a></li>
+                <li><a href="#News">Новости о погоде</a></li>
+                <li><a href="#Advice">Советы</a></li>
+                <li><a href="#Other">Прочее</a></li>
+            </ul>
+        </nav>
+        <div class="notification">
+        <div class="header">
+            <svg class="bell" width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 5C3 2.23858 5.23858 0 8 0C10.7614 0 13 2.23858 13 5V8L15 10V12H1V10L3 8V5Z" fill="#3b3a3aff"/>
+            <path d="M7.99999 16C6.69378 16 5.58254 15.1652 5.1707 14H10.8293C10.4175 15.1652 9.30621 16 7.99999 16Z" fill="#000000"/>
+            </svg>
+            <span class="badge">4</span>
+        </div>
+            <ul class="list">
+                <li>Уведомление 1</li>
+                <li>Уведомление 2</li>
+                <li>Уведомление 3</li>
+                <li>Уведомление 4</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="registration">
+                <a href="auth_form.html">Назад</a>
+                <h3>Регистрация</h3>
+            </div>
+            <form action="" method="get">
+                <div class="form_element name">
+                    <label for="name">Как вас зовут</label>
+                    <input type="text" name="name" id="name" 
+                        placeholder="Введите имя" required minlength="3" maxlength="30" autofocus>
+                </div>
+                <div class="form_element date">
+                    <label for="birthday">Дата рождения</label>
+                    <input type="datetime-local" name="birthday" id="birthday" 
+                        required min="2000-01-01T00:00" max="2025-01-01T23:59">
+                </div>
+
+                <div class="form_element tel">
+                    <label for="tel">Телефон</label>
+                    <input type="tel" name="tel" id="tel" 
+                        placeholder="+7 (___) ___-__-__" 
+                        pattern="\+7\s?\(\d{3}\)\s?\d{3}-\d{2}-\d{2}" required>
+                </div>
+
+                <div class="form_element email">
+                    <label for="email">Почта</label>
+                    <input type="email" name="email" id="email" 
+                        placeholder="username@email.com" 
+                        required maxlength="30" minlength="6">
+                </div>
+
+                <fieldset class="form_element pass-field">
+                    <legend>Придумайте пароль</legend>
+                    <div>
+                        <label for="password1">Пароль</label>
+                        <input type="password" name="password1" id="password1" 
+                            required minlength="8">
+                    </div>
+                    <div>
+                        <label for="password2">Повторите пароль</label>
+                        <input type="password" name="password2" id="password2" required>
+                    </div>
+                </fieldset>
+
+                <div class="form_element aboutme">
+                    <label for="bio">Расскажите о себе</label>
+                    <textarea name="bio" id="bio" cols="10" rows="5" 
+                            maxlength="200" minlength="10" 
+                            placeholder="Ваш текст здесь..." required></textarea>
+                </div>
+
+                <div class="form_element agreement">
+                    <label for="agreement">
+                        <input type="checkbox" name="agreement" id="agreement" checked>
+                        Продать себя за фантики
+                    </label>
+                </div>
+
+                <div class="form_element submit">
+                    <input type="submit" name="submit" id="submit" value="Отправить">
+                </div>
+            </form>
+        </div>
+        <a href="#Top" id = "button__top"><img src="source/arrow_up.svg" alt="Вверх"></a>
+    </main>
+    <footer id = "Other">
+        <address>
+            <div class="contacts">
+            <p>Контакты разработчика</p>
+            <p>Email: <a href="mailto:nmartianoff07@yandex.ru">nmartianoff07@yandex.ru</a></p>
+            <p>Телефон:<a href="tel:+7 (967) 099 17 18">+7 (967) 099 17 18</a></p>
+            <p>Адрес: <a href="https://yandex.ru/maps/-/CLFcIMOF">Москва, Новомосковский административный округ, район Внуково, квартал № 89</a></p>
+            </div>
+
+            <div class="social">
+                <div class="link-container">
+                <a href="https://vk.com/tirlicurendui" target="_blank">           
+                    <svg class="footer_svg" fill="#000000" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <title>vk</title>
+                    <path d="M25.217 22.402h-2.179c-0.825 0-1.080-0.656-2.562-2.158-1.291-1.25-1.862-1.418-2.179-1.418-0.445 0-0.572 0.127-0.572 0.741v1.968c0 0.53-0.169 0.847-1.566 0.847-2.818-0.189-5.24-1.726-6.646-3.966l-0.021-0.035c-1.632-2.027-2.835-4.47-3.43-7.142l-0.022-0.117c0-0.317 0.127-0.614 0.741-0.614h2.179c0.55 0 0.762 0.254 0.975 0.846 1.078 3.112 2.878 5.842 3.619 5.842 0.275 0 0.402-0.127 0.402-0.825v-3.219c-0.085-1.482-0.868-1.608-0.868-2.137 0.009-0.283 0.241-0.509 0.525-0.509 0.009 0 0.017 0 0.026 0.001l-0.001-0h3.429c0.466 0 0.635 0.254 0.635 0.804v4.34c0 0.465 0.212 0.635 0.339 0.635 0.275 0 0.509-0.17 1.016-0.677 1.054-1.287 1.955-2.759 2.642-4.346l0.046-0.12c0.145-0.363 0.493-0.615 0.9-0.615 0.019 0 0.037 0.001 0.056 0.002l-0.003-0h2.179c0.656 0 0.805 0.337 0.656 0.804-0.874 1.925-1.856 3.579-2.994 5.111l0.052-0.074c-0.232 0.381-0.317 0.55 0 0.975 0.232 0.317 0.995 0.973 1.503 1.566 0.735 0.727 1.351 1.573 1.816 2.507l0.025 0.055c0.212 0.612-0.106 0.93-0.72 0.93zM20.604 1.004h-9.207c-8.403 0-10.392 1.989-10.392 10.392v9.207c0 8.403 1.989 10.392 10.392 10.392h9.207c8.403 0 10.392-1.989 10.392-10.392v-9.207c0-8.403-2.011-10.392-10.392-10.392z"></path>
+                    </svg>         
+                </a>
+                </div>
+
+                <div class="link-container">
+                <a href="https://t.me/tirlicurendui" target="_blank">           
+                    <svg class="footer_svg" width="32px" height="32px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#000000" class="bi bi-telegram">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                    </svg>
+                </a>
+                </div>
+
+                <div class="link-container">
+                <a href="https://github.com/ManuScript07" target="_blank">
+                    <svg class="footer_svg" fill="#000000" width="48px" height="48px" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" class="icon">
+                    <path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"/>
+                    </svg>
+                </a>
+                </div>
+            </div>
+        </address>
+        <hr/>
+        <p class="copyright"><small>Копирайт для важности</small></p>
+    </footer>
+</body>
+</html>
+

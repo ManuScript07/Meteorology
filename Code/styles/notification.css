@@ -1,0 +1,188 @@
+.notification {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.notification::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #eef6ff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+  transition: all 0.4s ease;
+  z-index: 0;
+}
+
+.header {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transition: all 0.4s ease;
+  border-radius: 50px;
+  padding-right: 8px;
+}
+
+.badge {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: crimson;
+  color: white;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+.bell {
+  width: 22px;
+  height: 22px;
+  transition: fill 0.3s ease;
+}
+
+.notification:hover .bell path {
+  fill: white;
+}
+
+
+.list {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  transform: scaleY(0);
+
+  width: 240px;
+  margin: 0;
+  padding: 15px;
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+
+  counter-reset: item;
+  opacity: 0;
+  pointer-events: none;
+  transform-origin: top right;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  z-index: 1;
+}
+
+.list li {
+  background: white;
+  color: black;
+  border-radius: 8px;
+  padding: 8px 12px 8px 40px;
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: background-color 0.3s ease, color 0.3s ease, scale 0.3s ease;
+}
+
+.list li::before {
+  content: counter(item);
+  counter-increment: item;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #3399ff;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.list li:hover::before {
+  background: white;
+  color: #3399ff;
+}
+
+
+.list li:hover {
+  background: #3399ff;
+  color: white;
+  scale: 1.1;
+}
+
+.notification:hover::before {
+  border-radius: 16px;
+  width: 240px;
+  height: 280px;
+  background: white;
+  right: 0;
+}
+
+.notification:hover .header {
+  width: 240px;
+  height: 50px;
+  border-radius: 16px 16px 0 0;
+  background: #3399ff;
+  color: white;
+}
+
+.notification:hover .list {
+  transform: scaleY(1);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.notification:hover .list li {
+  animation: fadeIn 0.3s forwards;
+}
+
+.notification:hover .list li:nth-child(1) { animation-delay: 0.2s; }
+.notification:hover .list li:nth-child(2) { animation-delay: 0.3s; }
+.notification:hover .list li:nth-child(3) { animation-delay: 0.4s; }
+.notification:hover .list li:nth-child(4) { animation-delay: 0.5s; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+@media (max-width: 1296px) {
+  .notification{
+    position: absolute;
+    top: 12px;
+    right: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .notification{
+    position: absolute;
+    top: 12px;
+    right: 60px;
+  }
+}
+
