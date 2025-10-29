@@ -13,44 +13,281 @@
 <body>
     <div id="Top"></div>
     <header>
-        <div class = "logo-block">
-            <a href="#Top"><img src="source/favicon.png" alt="Логотиип"></a>
-            <div class="logo-text">
-                <h1 id="site-name">Метеорология.ру</h1>
-                <p><i>Погода Советы Новости</i></p>
+        <div class="header-inner">
+            <div class = "logo-block">
+                <a href="#Top"><img src="source/favicon.png" alt="Логотиип"></a>
+                <div class="logo-text">
+                    <h1 class="site-name">Метеорология</h1>
+                    <p><i>Погода Советы Новости</i></p>
+                </div>
             </div>
-        </div>
-        
-        <input type="checkbox" id="menu-toggle" class="menu-toggle">
-        <label for="menu-toggle" class="burger">
-            <span></span>
-        </label>
-        <nav>
-            <ul type = "disk">
-                <li><a href="#ForecastForTheWeek">Прогноз на неделю</a></li>
-                <li><a href="#ForecastOnTheMap">Прогноз на карте</a></li>
-                <li><a href="#News">Новости о погоде</a></li>
-                <li><a href="#Advice">Советы</a></li>
-                <li><a href="#Other">Прочее</a></li>
-            </ul>
-        </nav>
-        <div class="notification">
-        <div class="header">
-            <svg class="bell" width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 5C3 2.23858 5.23858 0 8 0C10.7614 0 13 2.23858 13 5V8L15 10V12H1V10L3 8V5Z" fill="#3b3a3aff"/>
-            <path d="M7.99999 16C6.69378 16 5.58254 15.1652 5.1707 14H10.8293C10.4175 15.1652 9.30621 16 7.99999 16Z" fill="#000000"/>
-            </svg>
-            <span class="badge">4</span>
-        </div>
-            <ul class="list">
-                <li>Уведомление 1</li>
-                <li>Уведомление 2</li>
-                <li>Уведомление 3</li>
-                <li>Уведомление 4</li>
-            </ul>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="burger">
+                <span></span>
+            </label>
+            <nav>
+                <ul type = "disk">
+                    <li><a href="#ForecastForTheWeek">Прогноз на неделю</a></li>
+                    <li><a href="#ForecastOnTheMap">Прогноз на карте</a></li>
+                    <li><a href="#News">Новости о погоде</a></li>
+                    <li><a href="#Advice">Советы</a></li>
+                    <li><a href="#Other">Прочее</a></li>
+                </ul>
+            </nav>
+            <div class="notification">
+            <div class="header">
+                <svg class="bell" width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 5C3 2.23858 5.23858 0 8 0C10.7614 0 13 2.23858 13 5V8L15 10V12H1V10L3 8V5Z" fill="#3b3a3aff"/>
+                <path d="M7.99999 16C6.69378 16 5.58254 15.1652 5.1707 14H10.8293C10.4175 15.1652 9.30621 16 7.99999 16Z" fill="#000000"/>
+                </svg>
+                <span class="badge">4</span>
+            </div>
+                <ul class="list">
+                    <li>Уведомление 1</li>
+                    <li>Уведомление 2</li>
+                    <li>Уведомление 3</li>
+                    <li>Уведомление 4</li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
+        <section class="weather-now-section">
+            <div class="current-location" id="openRegionModal">
+            <div class="content">
+                <svg class="location-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+                <path d="m6.33 9.67-3.57-.94a1 1 0 0 1-.15-1.89l9.71-4.29a.85.85 0 0 1 1.12 1.12L9.15 13.4a1 1 0 0 1-1.88-.15l-.94-3.57Z" fill="currentColor" stroke="none"></path>
+                </svg>
+                <h3 class="location-name"><span id="currentCity"></span></h3>
+            </div>
+            </div>
+
+            <div id="regionModal" class="modal-overlay">
+            <div class="modal-window">
+                <div class="modal-header">
+                <h3>Изменение региона</h3>
+                <button class="modal-close" id="closeRegionModal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                <label class="radio-row">
+                    <input type="radio" name="cityMode" id="autoDetect" checked>
+                    <span class="custom-radio"></span>
+                    Москва (определяется автоматически)
+                </label>
+
+                <label class="radio-row">
+                    <input type="radio" name="cityMode" id="manualInput">
+                    <span class="custom-radio"></span>
+                    Задать
+                </label>
+
+                <div class="manual-input-block">
+                    <input
+                    type="text"
+                    id="cityInput"
+                    placeholder="Введите город или место"
+                    disabled
+                    >
+                    <ul id="suggestionsList"></ul>
+                </div>
+                </div>
+
+                <div class="modal-footer">
+                <button id="saveCityBtn" disabled>Сохранить</button>
+                <button id="cancelCityBtn">Закрыть</button>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="weather-now">
+                <div class="weather-item weather-item-now">
+                    <h3>Сейчас</h3>
+                    <div class="content">
+                        <div class="weather-icon" style="--icon: 26" role="presentation"></div>
+                        <div class="text-content">
+                            <div class="temp-now">+6°C</div>
+                            <p>Облачно, без осадков</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="weather-item weather-item-week">
+                    <h3>На этой неделе</h3>
+                    <div class="content">
+                        <div class="weather-icon" style="--icon: 0" role="presentation"></div>
+                        <div class="text-content">
+                            <p>Почти без осадков · от +7...+10° · слабый ветер до 4 м/с, порывы до 10 м/c</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="weather-item weather-item-metrics">
+                    <h3>Показатели</h3>
+                    <div class="metrics-list">
+                        <div class="metric-row">
+                            <svg class="style_icon__utnVg AppFact_details__icon__d7iOt" role="presentation" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 2.5C22 17-6 17 8 2.5m2 6.9q0 1.4-1.4 2"></path>
+                            </svg>
+                            <span class="metric-name">Влажность</span>
+                            <span class="metric-value">68%</span>
+                        </div>
+                        <div class="metric-row">
+                            <svg class="style_icon__utnVg AppFact_details__icon__d7iOt" role="presentation" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+                                <path d="M7 3.5S9.8 3 9.8 5.4C9.7 7.2 7.4 7 7.4 7H4.8m6.8-1s1.8-.3 1.8 1.2-1.3 1.5-1.3 1.5h-1.3m-3.4 3.8s2 .1 2-1.4c0-1.4-2-1.4-2-1.4H2.6"></path>
+                            </svg>
+                            <span class="metric-name">Ветер</span>
+                            <span class="metric-value">3 м/с</span>
+                        </div>
+                        <div class="metric-row">
+                            <svg class="style_icon__utnVg AppFact_details__icon__d7iOt" role="presentation" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+                                <path d="M.5 8a7.5 7.5 0 1 1 0 .001zm6.5 0a1 1 0 1 1 0 .001zm-1 2l5.8-5.8m-2.5 0h2.5v2.5"></path>
+                            </svg>
+                            <span class="metric-name">Давление</span>
+                            <span class="metric-value">751 мм</span>
+                        </div>
+                        <div class="metric-row">
+                            <svg class="style_icon__utnVg AppFact_details__icon__d7iOt" role="presentation" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+                                <path d="M1.5 5.5q2.5 2.5 4.2-.5m0 0c.5 2 4 2 4.6 0m0 0q1.5 3 4.2.5M1.5 10q2.5 2.5 4.2-.5m0 0c.5 2 4 2 4.6 0m0 0q1.5 3 4.2.5"></path>
+                            </svg>
+                            <span class="metric-name">Температура воды</span>
+                            <span class="metric-value">+10°C</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="weather-item weather-item-sun">
+                    <h3>Восход / Заход</h3>
+                    <div class="sun-visual">
+                        <svg class="sun-arc" viewBox="0 0 210 90">
+                            <path d="M10,90 A100,90 0 0,1 200,90" class="arc-bg" />
+                            <path d="M10,90 A100,90 0 0,1 200,90" class="arc-progress" />
+                        </svg>
+                        <div class="sun-icons-block">
+                        <div class="sun-icons">
+                            <div class="sun-item">
+                                <img src="source/sun/sunrize.svg" alt="sunrize">
+                                <div class="time-item">
+                                    <span class="label">Восход</span>
+                                    <span class="value">06:28</span>
+                                </div>
+                            </div>
+                            <div class="daylight-container">
+                                <p class="daylight-text">Световой день</p>
+                                <p class="daylight-duration">10 ч 32 мин</p>
+                            </div>
+                            <div class="sun-item">
+                                <img src="source/sun/sunset.svg" alt="sunset">
+                                <div class="time-item">
+                                    <span class="label">Закат</span>
+                                    <span class="value">16:58</span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="weather-item weather-item-hourly">
+                    <h3>Погода по часам</h3>
+                    <div class="hourly-scroll" id="hourly-scroll"></div>
+                </div>
+
+
+                <!-- Пыльца -->
+                <a href="/pollen.html" class="weather-item weather-item-pollen">
+                <div class="content">
+                    <div class="metric-icon">
+                    <svg stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path d="M9 10q-1.5-3.5-5.5-3.5q2 2.5 2 6a6.5 6.5 0 0 0 13 0q0-3.5 2-6q-4 0-5.5 3.5m0-1l-3-3-3 3m3 10q0 1.5 1 2" stroke-width="1.5"></path><path d="M12 1.5h0m-7.5 1.5h0m16 0h0m-12 1.5h0m7 0h0" stroke-width="2.4"></path></svg>
+                    </div>
+                    <div class="text-content">
+                    <h3>Пыльца</h3>
+                    <p>сорняки полынь</p>
+                    </div>
+                </div>
+                </a>
+
+                <!-- Магнитное поле -->
+                <a href="/magnet.html" class="weather-item weather-item-magnet">
+                <div class="content">
+                    <div class="metric-icon"><span>2</span></div>
+                    <div class="text-content">
+                    <h3>Магнитное поле</h3>
+                    <p>спокойное</p>
+                    </div>
+                </div>
+                </a>
+
+                <!-- УФ-индекс -->
+                <a href="/uv.html" class="weather-item weather-item-uv">
+                <div class="content">
+                    <div class="metric-icon"><span>4</span></div>
+                    <div class="text-content">
+                    <h3>УФ-индекс</h3>
+                    <p>Умеренный уровень, защита не требуется</p>
+                    </div>
+                </div>
+                </a>
+
+                <!-- Луна -->
+                <a href="/moon.html" class="weather-item weather-item-moon">
+                <div class="content">
+                    <div class="moon-icon">
+                        <img decoding="async" loading="lazy" src="source/moon/full-moon.svg" alt="moon">
+                    </div>
+                    <div class="text-content">
+                    <h3>Луна</h3>
+                    <p>Первая четверть</p>
+                    </div>
+                </div>
+                </a>
+
+        </section>
+        <div class="content-container">
+            <section id="ForecastForTheWeek" class="forecast-section">
+                <h3>Прогноз на неделю</h3>
+                <div class="forecast-container"></div>
+            </section>
+
+
+            <aside class="aside-block">
+                <article class="aside-advice">
+                    <h3>Советы от Лосяша</h3>
+                    <img src="source/Телескоп_Лосяша_серия_130.png" alt="Лосяш" width="150" height="100">
+                    <ol class="advice-list">
+                        <li>Если солнечно и жарко:
+                        <ul>
+                            <li>Солнцезащитный крем</li>
+                            <li>Головной убор</li>
+                            <li>Бутылка воды</li>
+                        </ul>
+                        </li>
+                        <li>Если ожидается дождь:
+                        <ul>
+                            <li>Непромокаемая куртка</li>
+                            <li>Зонт</li>
+                        </ul>
+                        </li>
+                        <li>Если ветрено:
+                        <ul>
+                            <li>Ветровка</li>
+                            <li>Непромокаемая обувь</li>
+                        </ul>
+                        </li>
+                    </ol>
+                </article>
+                <article class="aside-advert">
+                    <h3>Спонсор прогноза</h3>
+                    <p><strong>Зонты от компании «United Umbrellas»</strong> — лёгкие, прочные и стильные.</p>
+                    <p>Будьте готовы к любой погоде! 🌧️</p>
+                    <a href="https://ozon.ru/t/7iIA6s6" target="_blank">
+                        Узнать больше
+                    </a>
+                </article>
+            </aside>
+        </div>
         <section class="section-review">
             <h3>Обзор</h3>
             <div class="review">
@@ -132,119 +369,11 @@
             </div>
             </div>
         </section>
-        <div class="content-container">
-            <section id="ForecastForTheWeek">
-                <h3>Прогноз на неделю</h3>
-
-                <article>
-                    <h4>Понедельник</h4>
-                    <p>Солнечно, +22°C</p>
-                    <p>Утро: +16°C, ясно</p>
-                    <p>День: +22°C, без осадков</p>
-                    <p>Вечер: +18°C, лёгкий ветер</p>
-                </article>
-
-                <article>
-                    <h4>Вторник</h4>
-                    <p>Переменная облачность, +19°C</p>
-                    <p>Утро: +14°C, облачно</p>
-                    <p>День: +19°C, возможен кратковременный дождь</p>
-                    <p>Вечер: +15°C, прохладный ветер</p>
-                </article>
-
-                <article>
-                    <h4>Среда</h4>
-                    <p>Небольшой дождь, +15°C</p>
-                    <p>Утро: +12°C, моросящий дождь</p>
-                    <p>День: +15°C, осадки 60%</p>
-                    <p>Вечер: +13°C, высокая влажность</p>
-                </article>
-
-                <article>
-                    <h4>Четверг</h4>
-                    <p>Ясно, +20°C</p>
-                    <p>Утро: +14°C, свежо</p>
-                    <p>День: +20°C, солнце</p>
-                    <p>Вечер: +17°C, без осадков</p>
-                </article>
-
-                <article>
-                    <h4>Пятница</h4>
-                    <p>Солнечно, +24°C</p>
-                    <p>Утро: +18°C, ясно</p>
-                    <p>День: +24°C, тёплый ветер</p>
-                    <p>Вечер: +20°C, комфортная погода</p>
-                </article>
-            </section>
-            <aside>
-                <article id="Advice">
-                    <h3 style="margin-top: 0">Советы от лосяша</h3>
-                    <img src="source/Телескоп_Лосяша_серия_130.png" alt="Лосяш" width="150" height="100" style="background: aqua;">
-                    <ol type="1" start="1">
-                        <li>Если солнечно и жарко:
-                            <ul type="disc">
-                                <li>Солнцезащитный крем</li>
-                                <li>Головной убор</li>
-                                <li>Бутылка воды</li>
-                            </ul>
-                        </li>
-                        <li>Если ожидается дождь:
-                            <ul type="circle">
-                                <li>Непромокаемая куртка</li>
-                                <li>Зонт</li>
-                            </ul>
-                        </li>
-                        <li>Если ветрено:
-                            <ul type="square">
-                                <li>Ветровка</li>
-                                <li>Не забывайте про зонт и непромокаемую обувь.</li>
-                            </ul>
-                        </li>
-                    </ol>
-                </article>
-                <article id = "Advert">
-                    <h3>Спонсор прогноза</h3>
-                    <p><strong>Зонты от компании «United Umbrellas»</strong> — лёгкие, прочные и стильные.</p>
-                    <p>Будьте готовы к любой погоде! 🌧️</p>
-                    <a href="https://ozon.ru/t/7iIA6s6" target="_blank"><button class="custom-btn btn-1"><span>Жми!</span><span>Узнать больше</span></button></a>
-                </article>
-            </aside>
-        </div>
-        <section id = "ForecastOnTheMap">
-            <h3>Прогноз на карте</h3>
-            <figure>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577348.4527661782!2d36.725899824168124!3d55.57995322261679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1758784810412!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <figcaption>Карта с прогнозом погоды по городам России</figcaption>
-            </figure>
-            <map name="weather">
-                <area shape="circle" coords="375,450,200" href="https://www.gismeteo.ru/weather-moscow-4368/now/" alt="Москва">
-                <area shape="rectangle" coords="0, 0, 300, 200" href="https://www.gismeteo.ru/weather-sankt-peterburg-4079/now/" alt="Санкт-Петербург">
-                <area shape="poly" coords="600, 450, 800, 200, 900, 400, 700, 500" href="https://www.gismeteo.ru/weather-kazan-4364/now/" alt="Казань">
-            </map>
-        </section>
-        <section id = "News" >
-            <h3>Новости о погоде</h3>
-            <article class="note important">
-                <h4>Штормовое предупреждение</h4>
-                <p>На Черном море ожидается сильный ветер.</p>
-            </article>
-            <article>
-                <h4>Рекорд жары</h4>
-                <p>В Сочи зафиксирована температура +38°C.</p>
-            </article>
-
-            <article class="video-card">
-                <div class="video-container">
-                    <iframe width="720" height="405" src="https://rutube.ru/play/embed/7127419c34ca921731b911a23b684bfc/" style="border: none;" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                    <div class="sidebar">
-                        <h4>Возможны кратковременные дожди</h4>
-                        <p>Сегодня будет небольшая вероятность дождя во второй половине дня.</p>
-                    </div>
-                </div>
-            </article>
-        </section>
-        <a href="#Top" id = "button__top"><img src="source/arrow_up.svg" alt="Вверх"></a>
-        
+        <a href="#Top" id = "button__top">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1586f7">
+                <path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"/>
+            </svg>
+        </a>
     </main>
     <footer id="Other">
         <div class="footer-container glass-footer">
@@ -307,5 +436,6 @@
         <hr />
         <p class="copyright"><small>© 2025 Метеорология. Все права защищены.</small></p>
     </footer>
+    <script type="module" src="scripts/main.js"></script>
 </body>
 </html>

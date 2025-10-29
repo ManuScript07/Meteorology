@@ -1,20 +1,51 @@
-#button__top{
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    right: 50px;
-    bottom: 50px;
-    padding: 10px;
-    background-color: #d0dbf3;
-    border: 3px #1586f7 solid;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    transition: 0.3s;
-    z-index: 100;
+#button__top {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(14px) saturate(160%);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.25),
+    inset 0 1px 10px rgba(255, 255, 255, 0.1);
+  
+  transition: opacity 0.4s ease, transform 0.3s ease, background 0.3s ease;
+  z-index: 100;
 }
 
-#button__top:hover{
-    background-color: #b3c9f7;
+#button__top svg {
+  fill: #fff;
+  transition: transform 0.3s ease, fill 0.3s ease;
+}
+
+#button__top:hover {
+  background: rgba(51, 153, 255, 0.25);
+  transform: translateY(-4px);
+}
+
+#button__top:hover svg {
+  fill: #80bfff;
+  transform: translateY(-2px);
+}
+
+#button__top.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@media (max-width: 500px) {
+  #button__top {
+    display: none;
+  }
 }

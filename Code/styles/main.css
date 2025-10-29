@@ -1,10 +1,11 @@
 main {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    /* padding: 0rem 2rem; */
+    box-sizing: border-box;
 }
 
-main section{
+/* main section{
     flex: 1 1 auto;
     min-width: 250px;
     max-width: none;
@@ -15,4 +16,4 @@ main aside{
     flex: 0 0 250px;
     min-width: 250px;
     align-self: flex-start;
-}
+} */
