@@ -27,7 +27,7 @@ header::before {
     max-width: 1200px;
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 5rem;
 }
 
 .logo-block {
@@ -124,7 +124,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    padding: 6px 6px;
+    padding: 6px 9px;
     color: white;
     text-decoration: none;
     font-weight: 600;

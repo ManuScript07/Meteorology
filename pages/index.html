@@ -8,14 +8,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style_main_page.css">
+    <link rel="stylesheet" href="/styles/style_main_page.css">
 </head>
 <body>
     <div id="Top"></div>
     <header>
         <div class="header-inner">
             <div class = "logo-block">
-                <a href="#Top"><img src="source/favicon.png" alt="Логотиип"></a>
+                <a href="#Top"><img src="/source/favicon.png" alt="Логотиип"></a>
                 <div class="logo-text">
                     <h1 class="site-name">Метеорология</h1>
                     <p><i>Погода Советы Новости</i></p>
@@ -27,12 +27,15 @@
                 <span></span>
             </label>
             <nav>
-                <ul type = "disk">
-                    <li><a href="#ForecastForTheWeek">Прогноз на неделю</a></li>
-                    <li><a href="#ForecastOnTheMap">Прогноз на карте</a></li>
-                    <li><a href="#News">Новости о погоде</a></li>
+                <ul>
+                    <li><a href="index.html#Weather-now">Сейчас</a></li>
+                    <li><a href="#Today">Сегодня</a></li>
+                    <li><a href="#Tomorrow">Завтра</a></li>
+                    <li><a href="#ForecastForTheWeek">Неделя</a></li>
                     <li><a href="#Advice">Советы</a></li>
-                    <li><a href="#Other">Прочее</a></li>
+                    <li><a href="#Review">Новости</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="#Other">О нас</a></li>
                 </ul>
             </nav>
             <div class="notification">
@@ -102,7 +105,7 @@
             </div>
 
 
-            <div class="weather-now">
+            <div class="weather-now" id="Weather-now">
                 <div class="weather-item weather-item-now">
                     <h3>Сейчас</h3>
                     <div class="content">
@@ -167,7 +170,7 @@
                         <div class="sun-icons-block">
                         <div class="sun-icons">
                             <div class="sun-item">
-                                <img src="source/sun/sunrize.svg" alt="sunrize">
+                                <img src="/source/sun/sunrize.svg" alt="sunrize">
                                 <div class="time-item">
                                     <span class="label">Восход</span>
                                     <span class="value">06:28</span>
@@ -178,7 +181,7 @@
                                 <p class="daylight-duration">10 ч 32 мин</p>
                             </div>
                             <div class="sun-item">
-                                <img src="source/sun/sunset.svg" alt="sunset">
+                                <img src="/source/sun/sunset.svg" alt="sunset">
                                 <div class="time-item">
                                     <span class="label">Закат</span>
                                     <span class="value">16:58</span>
@@ -196,8 +199,7 @@
                 </div>
 
 
-                <!-- Пыльца -->
-                <a href="/pollen.html" class="weather-item weather-item-pollen">
+                <a href="pollen.html" class="weather-item weather-item-pollen">
                 <div class="content">
                     <div class="metric-icon">
                     <svg stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path d="M9 10q-1.5-3.5-5.5-3.5q2 2.5 2 6a6.5 6.5 0 0 0 13 0q0-3.5 2-6q-4 0-5.5 3.5m0-1l-3-3-3 3m3 10q0 1.5 1 2" stroke-width="1.5"></path><path d="M12 1.5h0m-7.5 1.5h0m16 0h0m-12 1.5h0m7 0h0" stroke-width="2.4"></path></svg>
@@ -209,8 +211,7 @@
                 </div>
                 </a>
 
-                <!-- Магнитное поле -->
-                <a href="/magnet.html" class="weather-item weather-item-magnet">
+                <a href="magnet.html" class="weather-item weather-item-magnet">
                 <div class="content">
                     <div class="metric-icon"><span>2</span></div>
                     <div class="text-content">
@@ -235,7 +236,7 @@
                 <a href="/moon.html" class="weather-item weather-item-moon">
                 <div class="content">
                     <div class="moon-icon">
-                        <img decoding="async" loading="lazy" src="source/moon/full-moon.svg" alt="moon">
+                        <img decoding="async" loading="lazy" src="/source/moon/full-moon.svg" alt="moon">
                     </div>
                     <div class="text-content">
                     <h3>Луна</h3>
@@ -253,9 +254,9 @@
 
 
             <aside class="aside-block">
-                <article class="aside-advice">
+                <article class="aside-advice" id="Advice">
                     <h3>Советы от Лосяша</h3>
-                    <img src="source/Телескоп_Лосяша_серия_130.png" alt="Лосяш" width="150" height="100">
+                    <img src="/source/Телескоп_Лосяша_серия_130.png" alt="Лосяш" width="150" height="100">
                     <ol class="advice-list">
                         <li>Если солнечно и жарко:
                         <ul>
@@ -288,13 +289,13 @@
                 </article>
             </aside>
         </div>
-        <section class="section-review">
-            <h3>Обзор</h3>
+        <section class="section-review" id="Review">
+            <h3>Новости</h3>
             <div class="review">
             <div class="review-1">
                 <div class="review-item" id="tall-box">
                     <div class="content">
-                        <img src="source/grid_galary/moscow-rain.jpg" alt="Moscow rain">
+                        <img src="/source/grid_galary/moscow-rain.jpg" alt="Moscow rain">
                         <div  class="text-content">
                             <h3>Сейчас в Москве</h3>
                             <p>Дождь закончится через 3 часа</p>
@@ -303,7 +304,7 @@
                 </div>
                 <div class="review-item">
                     <div class="content">
-                        <img src="source/grid_galary/pic2.jpeg" alt="">
+                        <img src="/source/grid_galary/pic2.jpeg" alt="">
                         <div  class="text-content">
                             <h3>Погода на неделю</h3>
                             <p>Посмотрите актуальный прогноз в соответсвующем разделе</p>
@@ -312,7 +313,7 @@
                 </div>
                 <div class="review-item">
                     <div class="content">
-                        <img src="source/grid_galary/malash.png" alt="">
+                        <img src="/source/grid_galary/malash.png" alt="">
                         <div  class="text-content">
                             <h3 style="font-size: 1rem;">Вставьте лук</h3>
                             <p>Это кликбейт, что ты здесь хотел увидеть</p>
@@ -321,7 +322,7 @@
                 </div>
                 <div class="review-item" id="wide-box">
                     <div class="content">
-                        <img src="source/grid_galary/frog-rain.png" alt="">
+                        <img src="/source/grid_galary/frog-rain.png" alt="">
                         <div  class="text-content">
                             <h3>Ожидается дождь из лягушек</h3>
                             <p>В Ромашковой долине прошёл дождь из лягушек. По словам Лосяша причиной стало торнадо, поднявшее лягушек из болота и перенёсшее сюда. Однако остальные смешарики считают причиной высшие силы.</p>
@@ -332,7 +333,7 @@
             <div class="review-2">
                 <div class="review-item" id="wide-box">
                     <div class="content">
-                        <img src="source/grid_galary/buterfly.jpeg" alt="">
+                        <img src="/source/grid_galary/buterfly.jpeg" alt="">
                         <div  class="text-content">
                             <h3>Новый вид бабочек</h3>
                             <p>Лосяш открыл новый вид бабочек</p>
@@ -341,7 +342,7 @@
                 </div>
                 <div class="review-item" id="tall-box">
                     <div class="content">
-                        <img src="source/grid_galary/wated_letta.jpg" alt="">
+                        <img src="/source/grid_galary/wated_letta.jpg" alt="">
                         <div  class="text-content">
                             <h3>Внимание розыск!</h3>
                             <p>Её ищет вся полиция. Не сдала ни одной работы по ПРИРКЧИР'у</p>
@@ -350,7 +351,7 @@
                 </div>
                 <div class="review-item">
                     <div class="content">
-                        <img src="source/grid_galary/wanted_kirill.jpg" alt="">
+                        <img src="/source/grid_galary/wanted_kirill.jpg" alt="">
                         <div  class="text-content">
                             <h3>Внимание розыск!</h3>
                             <p>Сообщник Виолетты</p>
@@ -359,7 +360,7 @@
                 </div>
                 <div class="review-item">
                     <div class="content">
-                        <img src="source/grid_galary/wanted_kostya.jpg" alt="">
+                        <img src="/source/grid_galary/wanted_kostya.jpg" alt="">
                         <div  class="text-content">
                             <h3>Внимание розыск!</h3>
                             <p>Враг рейахахахаххахха</p>
@@ -436,6 +437,6 @@
         <hr />
         <p class="copyright"><small>© 2025 Метеорология. Все права защищены.</small></p>
     </footer>
-    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="/scripts/main.js"></script>
 </body>
 </html>

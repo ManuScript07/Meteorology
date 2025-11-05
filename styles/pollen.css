@@ -1,0 +1,217 @@
+@import url("root.css");
+@import url("header.css");
+@import url("burger.css");
+@import url("notification.css");
+@import url("body.css");
+@import url("titles.css");
+@import url("main.css");
+@import url("modal_window.css");
+@import url("faq.css");
+@import url("review.css");
+@import url("footer.css");
+@import url("button_top.css");
+
+
+
+
+
+
+.main-content-container{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+@media (min-width: 1024px) {
+    .content-container{
+        display: grid;
+        grid-template-columns: 5fr 4fr;
+        column-gap: 10px;
+    }
+    .section-review{
+        margin-top: 0;
+    }
+}
+
+.section-review{
+    max-width: 700px;
+}
+
+.review {
+    grid-template-columns: 1fr;
+}
+
+.pollen-section {
+  max-width: 700px;
+  padding: 20px 25px;
+
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px) ;
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.pollen-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+}
+
+h2, h3{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.pollen-description {
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+
+.pollen-buttons {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.pollen-btn {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.pollen-btn.active,
+.pollen-btn:hover {
+  background: #ffd54f;
+  color: #000;
+}
+
+
+.pollen-block{
+    position: relative;
+    padding: 10px 14px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 12px;
+}
+
+.pollen-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.status.low { color: rgba(235, 184, 54, 1);; }
+.status.medium { color: rgba(255, 188, 87, 1); }
+.status.high { color: rgba(250, 12, 8, 1); }
+
+.pollen-bars {
+    position: absolute;
+    right: 0;
+    bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+    padding: 0 4px;
+}
+
+.bar {
+  position: relative;
+  width: 8%;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+  transform-origin: bottom;
+  transform: scaleY(0);
+  animation: growUp 0.6s ease-out forwards;
+  transition: transform 0.2s ease, filter 0.2s ease;
+  z-index: 1;
+}
+
+@keyframes growUp {
+  from { transform: scaleY(0); }
+  to { transform: scaleY(1); }
+}
+
+.bar[data-level="0"] { background: rgba(255,255,255,0.15); height: 10px; }
+.bar[data-level="1"] { background: #ffd54f; height: 50px; }
+.bar[data-level="2"] { background: #ff9800; height: 100px; }
+.bar[data-level="3"] { background: #e53935; height: 160px; }
+
+.bar:hover {
+  filter: brightness(1.15);
+  transform: scaleY(1.02);
+  z-index: 10;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, -8px);
+  background: rgba(20, 20, 20, 0.95);
+  color: #fff;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  border-radius: 6px;
+  padding: 4px 8px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 11;
+}
+
+.bar:hover .tooltip {
+  opacity: 1;
+  transform: translate(-50%, -12px);
+}
+
+.bar-label {
+  position: absolute;
+  bottom: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.85rem;
+  color: #ccc;
+
+}
+
+.pollen-bars .bar:first-child .tooltip {
+  left: 20%;
+  transform: translate(-10%, -8px);
+}
+
+.pollen-bars .bar:last-child .tooltip {
+  left: 80%;
+  transform: translate(-90%, -8px);
+}
+
+.pollen-bars .bar:first-child:hover .tooltip {
+  transform: translate(-10%, -12px);
+}
+
+.pollen-bars .bar:last-child:hover .tooltip {
+  transform: translate(-90%, -12px);
+}
+

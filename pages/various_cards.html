@@ -194,5 +194,25 @@
         <hr/>
         <p class="copyright"><small>Копирайт для важности</small></p>
     </footer>
+    <script>
+        function truncate(str, maxlength) {
+            if (str.length > maxlength) {
+                return str.slice(0, maxlength - 1) + "…";
+            }
+            return str;
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+        const cardTexts = document.querySelectorAll(".card .content p, .box .content p");
+
+        const maxLength = 100;
+
+        cardTexts.forEach(p => {
+            const fullText = p.textContent.trim();
+            const truncated = truncate(fullText, maxLength);
+            p.textContent = truncated;
+        });
+        });
+    </script>
 </body>
 </html>

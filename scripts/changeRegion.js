@@ -1,4 +1,5 @@
 import { updateWeatherData } from "./weatherUpdater.js";
+import { updatePollenData } from "./pollen.js";
 
 export function setupCityModal() {
   const modal = document.getElementById("regionModal");
@@ -105,9 +106,20 @@ export function setupCityModal() {
 
     currentCity.textContent = newCity;
     localStorage.setItem("selectedCity", newCity);
-    updateWeatherData(newCity);
+
+    const path = window.location.pathname;
+
+    if (path.includes("pollen")) {
+      console.log("Обновляем данные пыльцы");
+      updatePollenData?.(newCity);
+    } else {
+      console.log("Обновляем данные погоды");
+      updateWeatherData?.(newCity);
+    }
+
     closeModalWindow();
   });
+
 
   function closeModalWindow() {
     modal.classList.remove("active");

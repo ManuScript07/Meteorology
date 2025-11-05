@@ -1,25 +1,20 @@
-// --- Функция проверки пустоты ---
 function isEmpty(obj) {
   return Object.keys(obj).length === 0;
 }
 
-// --- Элементы формы ---
 const captchaLabel = document.getElementById("captchaLabel");
 const captchaInput = document.getElementById("captchaInput");
 const checkCaptchaBtn = document.getElementById("checkCaptcha");
 const captchaError = document.getElementById("captchaError");
 const submitBtn = document.querySelector(".submit-element");
 
-// --- Начальное состояние ---
 let currentCaptcha = "";
 let isLetterMode = true;
 
-// Сразу блокируем кнопку "Войти" до прохождения капчи
 submitBtn.disabled = true;
 submitBtn.style.opacity = "0.6";
 submitBtn.style.cursor = "not-allowed";
 
-// --- Генерация буквенной капчи ---
 function generateLetterCaptcha(length = 6) {
   const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
   let captcha = "";
@@ -29,14 +24,14 @@ function generateLetterCaptcha(length = 6) {
   return captcha;
 }
 
-// --- Генерация числовой капчи ---
+
 function generateNumberCaptcha() {
   const a = Math.floor(Math.random() * 10) + 1;
   const b = Math.floor(Math.random() * 10) + 1;
   return { text: `${a} + ${b} = ?`, answer: a + b };
 }
 
-// --- Отображение капчи ---
+
 function showCaptcha() {
   captchaInput.value = "";
   captchaError.style.display = "none";
@@ -51,11 +46,10 @@ function showCaptcha() {
   }
 }
 
-// --- Проверка капчи ---
+
 checkCaptchaBtn.addEventListener("click", () => {
   const userValue = captchaInput.value.trim();
 
-  // Проверка на пустой ввод (используем isEmpty)
   if (isEmpty({ value: userValue }) || userValue === "") {
     captchaError.textContent = "Поле не может быть пустым!";
     captchaError.style.display = "block";
@@ -66,7 +60,6 @@ checkCaptchaBtn.addEventListener("click", () => {
     if (userValue === currentCaptcha) {
       successCaptcha();
     } else {
-      // Ошибка → переключаем на числовую капчу
       isLetterMode = false;
       captchaError.textContent = "Ошибка! Попробуйте решить пример:";
       captchaError.style.display = "block";
@@ -83,18 +76,16 @@ checkCaptchaBtn.addEventListener("click", () => {
   }
 });
 
-// --- При успешной проверке ---
+
 function successCaptcha() {
   captchaError.style.display = "none";
   captchaLabel.textContent = "✅ Проверка пройдена!";
   captchaInput.disabled = true;
   checkCaptchaBtn.disabled = true;
 
-  // Разблокируем кнопку "Войти"
   submitBtn.disabled = false;
   submitBtn.style.opacity = "1";
   submitBtn.style.cursor = "pointer";
 }
 
-// --- Инициализация ---
 showCaptcha();

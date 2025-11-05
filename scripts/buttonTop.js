@@ -9,11 +9,11 @@ export function buttonTop(){
         }
     });
 
-    topButton.addEventListener("click", (e) => {
-        e.preventDefault();
-        window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-        });
-    });
+    // topButton.addEventListener("click", (e) => {
+    //     e.preventDefault();
+    //     window.scrollTo({
+    //     top: 0,
+    //     behavior: "smooth",
+    //     });
+    // });
 }

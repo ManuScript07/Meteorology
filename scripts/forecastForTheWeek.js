@@ -27,6 +27,10 @@ export function updateForecastForTheWeek(city){
 
     const article = document.createElement("article");
     article.className = "forecast-article";
+    if (i === 0)
+      article.id = "Today"
+    else if (i === 1)
+      article.id = "Tomorrow"
 
     const table = document.createElement("div");
     table.className = "forecast-table";
