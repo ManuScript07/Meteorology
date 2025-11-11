@@ -1,0 +1,3311 @@
+{
+  "2025-11": [
+    {
+      "date": "2025-11-01",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 78,
+      "age": 10.1,
+      "rise": "16:05",
+      "set": "23:51"
+    },
+    {
+      "date": "2025-11-02",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 86,
+      "age": 11.1,
+      "rise": "17:15",
+      "set": "23:25"
+    },
+    {
+      "date": "2025-11-03",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 92,
+      "age": 12.1,
+      "rise": "18:51",
+      "set": "00:22"
+    },
+    {
+      "date": "2025-11-04",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 97,
+      "age": 13.1,
+      "rise": "19:25",
+      "set": "00:15"
+    },
+    {
+      "date": "2025-11-05",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 14.1,
+      "rise": "20:32",
+      "set": "01:10"
+    },
+    {
+      "date": "2025-11-06",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 15.1,
+      "rise": "21:00",
+      "set": "01:01"
+    },
+    {
+      "date": "2025-11-07",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 98,
+      "age": 16.1,
+      "rise": "22:17",
+      "set": "02:09"
+    },
+    {
+      "date": "2025-11-08",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 94,
+      "age": 17.1,
+      "rise": "23:02",
+      "set": "02:54"
+    },
+    {
+      "date": "2025-11-09",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 88,
+      "age": 18.1,
+      "rise": "00:17",
+      "set": "03:06"
+    },
+    {
+      "date": "2025-11-10",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 80,
+      "age": 19.1,
+      "rise": "01:54",
+      "set": "03:15"
+    },
+    {
+      "date": "2025-11-11",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 71,
+      "age": 20.1,
+      "rise": "02:10",
+      "set": "04:51"
+    },
+    {
+      "date": "2025-11-12",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 61,
+      "age": 21.1,
+      "rise": "03:28",
+      "set": "04:24"
+    },
+    {
+      "date": "2025-11-13",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 50,
+      "age": 22.1,
+      "rise": "04:17",
+      "set": "05:20"
+    },
+    {
+      "date": "2025-11-14",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 40,
+      "age": 23.1,
+      "rise": "05:04",
+      "set": "05:11"
+    },
+    {
+      "date": "2025-11-15",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 29,
+      "age": 24.1,
+      "rise": "06:05",
+      "set": "06:19"
+    },
+    {
+      "date": "2025-11-16",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 20,
+      "age": 25.1,
+      "rise": "07:11",
+      "set": "06:20"
+    },
+    {
+      "date": "2025-11-17",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 12,
+      "age": 26.1,
+      "rise": "08:00",
+      "set": "07:29"
+    },
+    {
+      "date": "2025-11-18",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 6,
+      "age": 27.1,
+      "rise": "09:22",
+      "set": "07:42"
+    },
+    {
+      "date": "2025-11-19",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 2,
+      "age": 28.1,
+      "rise": "10:06",
+      "set": "08:25"
+    },
+    {
+      "date": "2025-11-20",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 29.1,
+      "rise": "11:25",
+      "set": "08:07"
+    },
+    {
+      "date": "2025-11-21",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 0.6,
+      "rise": "06:23",
+      "set": "18:17"
+    },
+    {
+      "date": "2025-11-22",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 3,
+      "age": 1.6,
+      "rise": "07:39",
+      "set": "18:43"
+    },
+    {
+      "date": "2025-11-23",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 8,
+      "age": 2.6,
+      "rise": "08:22",
+      "set": "19:47"
+    },
+    {
+      "date": "2025-11-24",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 14,
+      "age": 3.6,
+      "rise": "09:18",
+      "set": "19:39"
+    },
+    {
+      "date": "2025-11-25",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 22,
+      "age": 4.6,
+      "rise": "10:29",
+      "set": "20:43"
+    },
+    {
+      "date": "2025-11-26",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 32,
+      "age": 5.6,
+      "rise": "11:26",
+      "set": "20:45"
+    },
+    {
+      "date": "2025-11-27",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 42,
+      "age": 6.6,
+      "rise": "12:32",
+      "set": "21:16"
+    },
+    {
+      "date": "2025-11-28",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 52,
+      "age": 7.6,
+      "rise": "13:34",
+      "set": "21:13"
+    },
+    {
+      "date": "2025-11-29",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 63,
+      "age": 8.6,
+      "rise": "14:29",
+      "set": "22:12"
+    },
+    {
+      "date": "2025-11-30",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 73,
+      "age": 9.6,
+      "rise": "15:45",
+      "set": "22:31"
+    }
+  ],
+  "2025-12": [
+    {
+      "date": "2025-12-01",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 82,
+      "age": 10.6,
+      "rise": "16:41",
+      "set": "23:50"
+    },
+    {
+      "date": "2025-12-02",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 89,
+      "age": 11.6,
+      "rise": "17:18",
+      "set": "23:47"
+    },
+    {
+      "date": "2025-12-03",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 95,
+      "age": 12.6,
+      "rise": "18:23",
+      "set": "00:59"
+    },
+    {
+      "date": "2025-12-04",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 99,
+      "age": 13.6,
+      "rise": "19:44",
+      "set": "00:41"
+    },
+    {
+      "date": "2025-12-05",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 14.6,
+      "rise": "20:29",
+      "set": "01:45"
+    },
+    {
+      "date": "2025-12-06",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 99,
+      "age": 15.6,
+      "rise": "21:05",
+      "set": "01:02"
+    },
+    {
+      "date": "2025-12-07",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 96,
+      "age": 16.6,
+      "rise": "22:53",
+      "set": "02:26"
+    },
+    {
+      "date": "2025-12-08",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 91,
+      "age": 17.6,
+      "rise": "23:32",
+      "set": "02:07"
+    },
+    {
+      "date": "2025-12-09",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 84,
+      "age": 18.6,
+      "rise": "00:16",
+      "set": "03:30"
+    },
+    {
+      "date": "2025-12-10",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 76,
+      "age": 19.6,
+      "rise": "01:14",
+      "set": "03:15"
+    },
+    {
+      "date": "2025-12-11",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 66,
+      "age": 20.6,
+      "rise": "02:59",
+      "set": "04:14"
+    },
+    {
+      "date": "2025-12-12",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 56,
+      "age": 21.6,
+      "rise": "03:20",
+      "set": "04:03"
+    },
+    {
+      "date": "2025-12-13",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 45,
+      "age": 22.6,
+      "rise": "04:15",
+      "set": "05:51"
+    },
+    {
+      "date": "2025-12-14",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 35,
+      "age": 23.6,
+      "rise": "05:16",
+      "set": "05:29"
+    },
+    {
+      "date": "2025-12-15",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 25,
+      "age": 24.6,
+      "rise": "06:08",
+      "set": "06:02"
+    },
+    {
+      "date": "2025-12-16",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 16,
+      "age": 25.6,
+      "rise": "07:11",
+      "set": "06:38"
+    },
+    {
+      "date": "2025-12-17",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 9,
+      "age": 26.6,
+      "rise": "08:54",
+      "set": "07:57"
+    },
+    {
+      "date": "2025-12-18",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 4,
+      "age": 27.6,
+      "rise": "09:00",
+      "set": "07:21"
+    },
+    {
+      "date": "2025-12-19",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 1,
+      "age": 28.6,
+      "rise": "10:21",
+      "set": "08:01"
+    },
+    {
+      "date": "2025-12-20",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 0.1,
+      "rise": "06:27",
+      "set": "18:17"
+    },
+    {
+      "date": "2025-12-21",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 1,
+      "age": 1.1,
+      "rise": "07:30",
+      "set": "18:31"
+    },
+    {
+      "date": "2025-12-22",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 5,
+      "age": 2.1,
+      "rise": "08:32",
+      "set": "19:32"
+    },
+    {
+      "date": "2025-12-23",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 10,
+      "age": 3.1,
+      "rise": "09:07",
+      "set": "19:31"
+    },
+    {
+      "date": "2025-12-24",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 18,
+      "age": 4.1,
+      "rise": "10:51",
+      "set": "20:27"
+    },
+    {
+      "date": "2025-12-25",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 26,
+      "age": 5.1,
+      "rise": "11:43",
+      "set": "20:51"
+    },
+    {
+      "date": "2025-12-26",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 36,
+      "age": 6.1,
+      "rise": "12:22",
+      "set": "21:06"
+    },
+    {
+      "date": "2025-12-27",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 47,
+      "age": 7.1,
+      "rise": "13:08",
+      "set": "21:52"
+    },
+    {
+      "date": "2025-12-28",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 57,
+      "age": 8.1,
+      "rise": "14:33",
+      "set": "22:34"
+    },
+    {
+      "date": "2025-12-29",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 68,
+      "age": 9.1,
+      "rise": "15:16",
+      "set": "22:19"
+    },
+    {
+      "date": "2025-12-30",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 77,
+      "age": 10.1,
+      "rise": "16:26",
+      "set": "23:21"
+    },
+    {
+      "date": "2025-12-31",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 85,
+      "age": 11.1,
+      "rise": "17:44",
+      "set": "23:39"
+    }
+  ],
+  "2026-01": [
+    {
+      "date": "2026-01-01",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 92,
+      "age": 12.1,
+      "rise": "18:48",
+      "set": "00:58"
+    },
+    {
+      "date": "2026-01-02",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 97,
+      "age": 13.1,
+      "rise": "19:39",
+      "set": "00:23"
+    },
+    {
+      "date": "2026-01-03",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 99,
+      "age": 14.1,
+      "rise": "20:04",
+      "set": "01:12"
+    },
+    {
+      "date": "2026-01-04",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 15.1,
+      "rise": "21:45",
+      "set": "01:14"
+    },
+    {
+      "date": "2026-01-05",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 98,
+      "age": 16.1,
+      "rise": "22:46",
+      "set": "02:37"
+    },
+    {
+      "date": "2026-01-06",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 94,
+      "age": 17.1,
+      "rise": "23:37",
+      "set": "02:08"
+    },
+    {
+      "date": "2026-01-07",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 88,
+      "age": 18.1,
+      "rise": "00:33",
+      "set": "03:16"
+    },
+    {
+      "date": "2026-01-08",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 80,
+      "age": 19.1,
+      "rise": "01:48",
+      "set": "03:50"
+    },
+    {
+      "date": "2026-01-09",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 71,
+      "age": 20.1,
+      "rise": "02:58",
+      "set": "04:32"
+    },
+    {
+      "date": "2026-01-10",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 61,
+      "age": 21.1,
+      "rise": "03:07",
+      "set": "04:59"
+    },
+    {
+      "date": "2026-01-11",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 51,
+      "age": 22.1,
+      "rise": "04:38",
+      "set": "05:53"
+    },
+    {
+      "date": "2026-01-12",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 40,
+      "age": 23.1,
+      "rise": "05:39",
+      "set": "05:37"
+    },
+    {
+      "date": "2026-01-13",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 30,
+      "age": 24.1,
+      "rise": "06:31",
+      "set": "06:32"
+    },
+    {
+      "date": "2026-01-14",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 21,
+      "age": 25.1,
+      "rise": "07:51",
+      "set": "06:52"
+    },
+    {
+      "date": "2026-01-15",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 13,
+      "age": 26.1,
+      "rise": "08:16",
+      "set": "07:49"
+    },
+    {
+      "date": "2026-01-16",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 7,
+      "age": 27.1,
+      "rise": "09:36",
+      "set": "07:39"
+    },
+    {
+      "date": "2026-01-17",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 2,
+      "age": 28.1,
+      "rise": "10:43",
+      "set": "08:58"
+    },
+    {
+      "date": "2026-01-18",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 29.1,
+      "rise": "11:01",
+      "set": "08:05"
+    },
+    {
+      "date": "2026-01-19",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 0.6,
+      "rise": "06:08",
+      "set": "18:04"
+    },
+    {
+      "date": "2026-01-20",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 3,
+      "age": 1.6,
+      "rise": "07:17",
+      "set": "18:34"
+    },
+    {
+      "date": "2026-01-21",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 7,
+      "age": 2.6,
+      "rise": "08:05",
+      "set": "19:49"
+    },
+    {
+      "date": "2026-01-22",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 14,
+      "age": 3.6,
+      "rise": "09:44",
+      "set": "19:18"
+    },
+    {
+      "date": "2026-01-23",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 22,
+      "age": 4.6,
+      "rise": "10:46",
+      "set": "20:31"
+    },
+    {
+      "date": "2026-01-24",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 31,
+      "age": 5.6,
+      "rise": "11:23",
+      "set": "20:59"
+    },
+    {
+      "date": "2026-01-25",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 41,
+      "age": 6.6,
+      "rise": "12:36",
+      "set": "21:44"
+    },
+    {
+      "date": "2026-01-26",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 52,
+      "age": 7.6,
+      "rise": "13:37",
+      "set": "21:49"
+    },
+    {
+      "date": "2026-01-27",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 62,
+      "age": 8.6,
+      "rise": "14:57",
+      "set": "22:02"
+    },
+    {
+      "date": "2026-01-28",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 72,
+      "age": 9.6,
+      "rise": "15:44",
+      "set": "22:47"
+    },
+    {
+      "date": "2026-01-29",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 81,
+      "age": 10.6,
+      "rise": "16:21",
+      "set": "23:47"
+    },
+    {
+      "date": "2026-01-30",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 89,
+      "age": 11.6,
+      "rise": "17:58",
+      "set": "23:56"
+    },
+    {
+      "date": "2026-01-31",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 95,
+      "age": 12.6,
+      "rise": "18:19",
+      "set": "00:40"
+    }
+  ],
+  "2026-02": [
+    {
+      "date": "2026-02-01",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 98,
+      "age": 13.6,
+      "rise": "19:30",
+      "set": "00:44"
+    },
+    {
+      "date": "2026-02-02",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 14.6,
+      "rise": "20:16",
+      "set": "01:15"
+    },
+    {
+      "date": "2026-02-03",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 99,
+      "age": 15.6,
+      "rise": "21:33",
+      "set": "01:22"
+    },
+    {
+      "date": "2026-02-04",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 96,
+      "age": 16.6,
+      "rise": "22:31",
+      "set": "02:03"
+    },
+    {
+      "date": "2026-02-05",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 91,
+      "age": 17.6,
+      "rise": "23:53",
+      "set": "02:43"
+    },
+    {
+      "date": "2026-02-06",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 85,
+      "age": 18.6,
+      "rise": "00:49",
+      "set": "03:00"
+    },
+    {
+      "date": "2026-02-07",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 76,
+      "age": 19.6,
+      "rise": "01:00",
+      "set": "03:04"
+    },
+    {
+      "date": "2026-02-08",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 67,
+      "age": 20.6,
+      "rise": "02:07",
+      "set": "04:43"
+    },
+    {
+      "date": "2026-02-09",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 56,
+      "age": 21.6,
+      "rise": "03:28",
+      "set": "04:22"
+    },
+    {
+      "date": "2026-02-10",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 46,
+      "age": 22.6,
+      "rise": "04:03",
+      "set": "05:54"
+    },
+    {
+      "date": "2026-02-11",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 35,
+      "age": 23.6,
+      "rise": "05:46",
+      "set": "05:16"
+    },
+    {
+      "date": "2026-02-12",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 26,
+      "age": 24.6,
+      "rise": "06:21",
+      "set": "06:32"
+    },
+    {
+      "date": "2026-02-13",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 17,
+      "age": 25.6,
+      "rise": "07:56",
+      "set": "06:00"
+    },
+    {
+      "date": "2026-02-14",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 10,
+      "age": 26.6,
+      "rise": "08:54",
+      "set": "07:23"
+    },
+    {
+      "date": "2026-02-15",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 4,
+      "age": 27.6,
+      "rise": "09:16",
+      "set": "07:01"
+    },
+    {
+      "date": "2026-02-16",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 1,
+      "age": 28.6,
+      "rise": "10:45",
+      "set": "08:41"
+    },
+    {
+      "date": "2026-02-17",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 0.0,
+      "rise": "06:31",
+      "set": "18:04"
+    },
+    {
+      "date": "2026-02-18",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 1,
+      "age": 1.0,
+      "rise": "07:21",
+      "set": "18:18"
+    },
+    {
+      "date": "2026-02-19",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 5,
+      "age": 2.0,
+      "rise": "08:21",
+      "set": "19:36"
+    },
+    {
+      "date": "2026-02-20",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 10,
+      "age": 3.0,
+      "rise": "09:14",
+      "set": "19:48"
+    },
+    {
+      "date": "2026-02-21",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 17,
+      "age": 4.0,
+      "rise": "10:45",
+      "set": "20:58"
+    },
+    {
+      "date": "2026-02-22",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 26,
+      "age": 5.0,
+      "rise": "11:57",
+      "set": "20:01"
+    },
+    {
+      "date": "2026-02-23",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 36,
+      "age": 6.0,
+      "rise": "12:30",
+      "set": "21:37"
+    },
+    {
+      "date": "2026-02-24",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 46,
+      "age": 7.0,
+      "rise": "13:17",
+      "set": "21:08"
+    },
+    {
+      "date": "2026-02-25",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 57,
+      "age": 8.0,
+      "rise": "14:09",
+      "set": "22:52"
+    },
+    {
+      "date": "2026-02-26",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 67,
+      "age": 9.0,
+      "rise": "15:33",
+      "set": "22:29"
+    },
+    {
+      "date": "2026-02-27",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 77,
+      "age": 10.0,
+      "rise": "16:13",
+      "set": "23:32"
+    },
+    {
+      "date": "2026-02-28",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 85,
+      "age": 11.0,
+      "rise": "17:42",
+      "set": "23:45"
+    }
+  ],
+  "2026-03": [
+    {
+      "date": "2026-03-01",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 92,
+      "age": 12.0,
+      "rise": "18:22",
+      "set": "00:55"
+    },
+    {
+      "date": "2026-03-02",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 97,
+      "age": 13.0,
+      "rise": "19:25",
+      "set": "00:20"
+    },
+    {
+      "date": "2026-03-03",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 99,
+      "age": 14.0,
+      "rise": "20:34",
+      "set": "01:48"
+    },
+    {
+      "date": "2026-03-04",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 15.0,
+      "rise": "21:31",
+      "set": "01:47"
+    },
+    {
+      "date": "2026-03-05",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 98,
+      "age": 16.0,
+      "rise": "22:03",
+      "set": "02:11"
+    },
+    {
+      "date": "2026-03-06",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 94,
+      "age": 17.0,
+      "rise": "23:58",
+      "set": "02:54"
+    },
+    {
+      "date": "2026-03-07",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 88,
+      "age": 18.0,
+      "rise": "00:54",
+      "set": "03:35"
+    },
+    {
+      "date": "2026-03-08",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 81,
+      "age": 19.0,
+      "rise": "01:51",
+      "set": "03:41"
+    },
+    {
+      "date": "2026-03-09",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 72,
+      "age": 20.0,
+      "rise": "02:08",
+      "set": "04:11"
+    },
+    {
+      "date": "2026-03-10",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 62,
+      "age": 21.0,
+      "rise": "03:58",
+      "set": "04:46"
+    },
+    {
+      "date": "2026-03-11",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 51,
+      "age": 22.0,
+      "rise": "04:59",
+      "set": "05:58"
+    },
+    {
+      "date": "2026-03-12",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 41,
+      "age": 23.0,
+      "rise": "05:19",
+      "set": "05:13"
+    },
+    {
+      "date": "2026-03-13",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 31,
+      "age": 24.0,
+      "rise": "06:23",
+      "set": "06:28"
+    },
+    {
+      "date": "2026-03-14",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 21,
+      "age": 25.0,
+      "rise": "07:30",
+      "set": "06:33"
+    },
+    {
+      "date": "2026-03-15",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 13,
+      "age": 26.0,
+      "rise": "08:30",
+      "set": "07:14"
+    },
+    {
+      "date": "2026-03-16",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 7,
+      "age": 27.0,
+      "rise": "09:49",
+      "set": "07:11"
+    },
+    {
+      "date": "2026-03-17",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 3,
+      "age": 28.0,
+      "rise": "10:42",
+      "set": "08:19"
+    },
+    {
+      "date": "2026-03-18",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 29.0,
+      "rise": "11:13",
+      "set": "08:21"
+    },
+    {
+      "date": "2026-03-19",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 0.5,
+      "rise": "06:59",
+      "set": "18:17"
+    },
+    {
+      "date": "2026-03-20",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 2,
+      "age": 1.5,
+      "rise": "07:04",
+      "set": "18:32"
+    },
+    {
+      "date": "2026-03-21",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 7,
+      "age": 2.5,
+      "rise": "08:37",
+      "set": "19:03"
+    },
+    {
+      "date": "2026-03-22",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 13,
+      "age": 3.5,
+      "rise": "09:39",
+      "set": "19:15"
+    },
+    {
+      "date": "2026-03-23",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 21,
+      "age": 4.5,
+      "rise": "10:31",
+      "set": "20:30"
+    },
+    {
+      "date": "2026-03-24",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 30,
+      "age": 5.5,
+      "rise": "11:23",
+      "set": "20:59"
+    },
+    {
+      "date": "2026-03-25",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 41,
+      "age": 6.5,
+      "rise": "12:19",
+      "set": "21:56"
+    },
+    {
+      "date": "2026-03-26",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 51,
+      "age": 7.5,
+      "rise": "13:32",
+      "set": "21:43"
+    },
+    {
+      "date": "2026-03-27",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 62,
+      "age": 8.5,
+      "rise": "14:46",
+      "set": "22:28"
+    },
+    {
+      "date": "2026-03-28",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 72,
+      "age": 9.5,
+      "rise": "15:29",
+      "set": "22:25"
+    },
+    {
+      "date": "2026-03-29",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 81,
+      "age": 10.5,
+      "rise": "16:47",
+      "set": "23:01"
+    },
+    {
+      "date": "2026-03-30",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 88,
+      "age": 11.5,
+      "rise": "17:17",
+      "set": "23:55"
+    },
+    {
+      "date": "2026-03-31",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 94,
+      "age": 12.5,
+      "rise": "18:20",
+      "set": "00:52"
+    }
+  ],
+  "2026-04": [
+    {
+      "date": "2026-04-01",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 98,
+      "age": 13.5,
+      "rise": "19:13",
+      "set": "00:21"
+    },
+    {
+      "date": "2026-04-02",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 14.5,
+      "rise": "20:30",
+      "set": "01:38"
+    },
+    {
+      "date": "2026-04-03",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 99,
+      "age": 15.5,
+      "rise": "21:19",
+      "set": "01:56"
+    },
+    {
+      "date": "2026-04-04",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 97,
+      "age": 16.5,
+      "rise": "22:03",
+      "set": "02:12"
+    },
+    {
+      "date": "2026-04-05",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 92,
+      "age": 17.5,
+      "rise": "23:58",
+      "set": "02:41"
+    },
+    {
+      "date": "2026-04-06",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 85,
+      "age": 18.5,
+      "rise": "00:50",
+      "set": "03:47"
+    },
+    {
+      "date": "2026-04-07",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 77,
+      "age": 19.5,
+      "rise": "01:05",
+      "set": "03:38"
+    },
+    {
+      "date": "2026-04-08",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 67,
+      "age": 20.5,
+      "rise": "02:22",
+      "set": "04:12"
+    },
+    {
+      "date": "2026-04-09",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 57,
+      "age": 21.5,
+      "rise": "03:29",
+      "set": "04:58"
+    },
+    {
+      "date": "2026-04-10",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 46,
+      "age": 22.5,
+      "rise": "04:02",
+      "set": "05:11"
+    },
+    {
+      "date": "2026-04-11",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 36,
+      "age": 23.5,
+      "rise": "05:41",
+      "set": "05:52"
+    },
+    {
+      "date": "2026-04-12",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 26,
+      "age": 24.5,
+      "rise": "06:31",
+      "set": "06:57"
+    },
+    {
+      "date": "2026-04-13",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 17,
+      "age": 25.5,
+      "rise": "07:59",
+      "set": "06:45"
+    },
+    {
+      "date": "2026-04-14",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 10,
+      "age": 26.5,
+      "rise": "08:40",
+      "set": "07:58"
+    },
+    {
+      "date": "2026-04-15",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 5,
+      "age": 27.5,
+      "rise": "09:57",
+      "set": "07:08"
+    },
+    {
+      "date": "2026-04-16",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 1,
+      "age": 28.5,
+      "rise": "10:02",
+      "set": "08:14"
+    },
+    {
+      "date": "2026-04-17",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 29.5,
+      "rise": "11:35",
+      "set": "08:38"
+    },
+    {
+      "date": "2026-04-18",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 1,
+      "age": 1.0,
+      "rise": "06:13",
+      "set": "18:18"
+    },
+    {
+      "date": "2026-04-19",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 4,
+      "age": 2.0,
+      "rise": "07:17",
+      "set": "18:39"
+    },
+    {
+      "date": "2026-04-20",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 10,
+      "age": 3.0,
+      "rise": "08:46",
+      "set": "19:56"
+    },
+    {
+      "date": "2026-04-21",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 17,
+      "age": 4.0,
+      "rise": "09:22",
+      "set": "19:52"
+    },
+    {
+      "date": "2026-04-22",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 25,
+      "age": 5.0,
+      "rise": "10:08",
+      "set": "20:03"
+    },
+    {
+      "date": "2026-04-23",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 35,
+      "age": 6.0,
+      "rise": "11:47",
+      "set": "20:59"
+    },
+    {
+      "date": "2026-04-24",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 45,
+      "age": 7.0,
+      "rise": "12:55",
+      "set": "21:05"
+    },
+    {
+      "date": "2026-04-25",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 56,
+      "age": 8.0,
+      "rise": "13:59",
+      "set": "21:29"
+    },
+    {
+      "date": "2026-04-26",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 66,
+      "age": 9.0,
+      "rise": "14:23",
+      "set": "22:18"
+    },
+    {
+      "date": "2026-04-27",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 76,
+      "age": 10.0,
+      "rise": "15:43",
+      "set": "22:40"
+    },
+    {
+      "date": "2026-04-28",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 84,
+      "age": 11.0,
+      "rise": "16:20",
+      "set": "23:35"
+    },
+    {
+      "date": "2026-04-29",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 91,
+      "age": 12.0,
+      "rise": "17:11",
+      "set": "23:05"
+    },
+    {
+      "date": "2026-04-30",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 96,
+      "age": 13.0,
+      "rise": "18:54",
+      "set": "00:00"
+    }
+  ],
+  "2026-05": [
+    {
+      "date": "2026-05-01",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 99,
+      "age": 14.0,
+      "rise": "19:04",
+      "set": "00:16"
+    },
+    {
+      "date": "2026-05-02",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 15.0,
+      "rise": "20:43",
+      "set": "01:58"
+    },
+    {
+      "date": "2026-05-03",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 98,
+      "age": 16.0,
+      "rise": "21:50",
+      "set": "01:05"
+    },
+    {
+      "date": "2026-05-04",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 95,
+      "age": 17.0,
+      "rise": "22:25",
+      "set": "02:53"
+    },
+    {
+      "date": "2026-05-05",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 89,
+      "age": 18.0,
+      "rise": "23:59",
+      "set": "02:42"
+    },
+    {
+      "date": "2026-05-06",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 81,
+      "age": 19.0,
+      "rise": "00:10",
+      "set": "03:16"
+    },
+    {
+      "date": "2026-05-07",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 72,
+      "age": 20.0,
+      "rise": "01:34",
+      "set": "03:45"
+    },
+    {
+      "date": "2026-05-08",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 63,
+      "age": 21.0,
+      "rise": "02:21",
+      "set": "04:34"
+    },
+    {
+      "date": "2026-05-09",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 52,
+      "age": 22.0,
+      "rise": "03:22",
+      "set": "04:12"
+    },
+    {
+      "date": "2026-05-10",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 41,
+      "age": 23.0,
+      "rise": "04:45",
+      "set": "05:31"
+    },
+    {
+      "date": "2026-05-11",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 31,
+      "age": 24.0,
+      "rise": "05:19",
+      "set": "05:37"
+    },
+    {
+      "date": "2026-05-12",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 22,
+      "age": 25.0,
+      "rise": "06:41",
+      "set": "06:15"
+    },
+    {
+      "date": "2026-05-13",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 14,
+      "age": 26.0,
+      "rise": "07:19",
+      "set": "06:23"
+    },
+    {
+      "date": "2026-05-14",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 7,
+      "age": 27.0,
+      "rise": "08:18",
+      "set": "07:24"
+    },
+    {
+      "date": "2026-05-15",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 3,
+      "age": 28.0,
+      "rise": "09:12",
+      "set": "07:04"
+    },
+    {
+      "date": "2026-05-16",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 29.0,
+      "rise": "10:41",
+      "set": "08:41"
+    },
+    {
+      "date": "2026-05-17",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 0.4,
+      "rise": "06:01",
+      "set": "18:14"
+    },
+    {
+      "date": "2026-05-18",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 2,
+      "age": 1.4,
+      "rise": "07:53",
+      "set": "18:21"
+    },
+    {
+      "date": "2026-05-19",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 7,
+      "age": 2.4,
+      "rise": "08:10",
+      "set": "19:10"
+    },
+    {
+      "date": "2026-05-20",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 13,
+      "age": 3.4,
+      "rise": "09:54",
+      "set": "19:08"
+    },
+    {
+      "date": "2026-05-21",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 21,
+      "age": 4.4,
+      "rise": "10:32",
+      "set": "20:09"
+    },
+    {
+      "date": "2026-05-22",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 30,
+      "age": 5.4,
+      "rise": "11:41",
+      "set": "20:41"
+    },
+    {
+      "date": "2026-05-23",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 40,
+      "age": 6.4,
+      "rise": "12:49",
+      "set": "21:42"
+    },
+    {
+      "date": "2026-05-24",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 50,
+      "age": 7.4,
+      "rise": "13:29",
+      "set": "21:17"
+    },
+    {
+      "date": "2026-05-25",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 61,
+      "age": 8.4,
+      "rise": "14:09",
+      "set": "22:06"
+    },
+    {
+      "date": "2026-05-26",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 71,
+      "age": 9.4,
+      "rise": "15:05",
+      "set": "22:42"
+    },
+    {
+      "date": "2026-05-27",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 80,
+      "age": 10.4,
+      "rise": "16:10",
+      "set": "23:56"
+    },
+    {
+      "date": "2026-05-28",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 88,
+      "age": 11.4,
+      "rise": "17:53",
+      "set": "23:10"
+    },
+    {
+      "date": "2026-05-29",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 94,
+      "age": 12.4,
+      "rise": "18:53",
+      "set": "00:48"
+    },
+    {
+      "date": "2026-05-30",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 98,
+      "age": 13.4,
+      "rise": "19:26",
+      "set": "00:21"
+    },
+    {
+      "date": "2026-05-31",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 14.4,
+      "rise": "20:57",
+      "set": "01:36"
+    }
+  ],
+  "2026-06": [
+    {
+      "date": "2026-06-01",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 15.4,
+      "rise": "21:41",
+      "set": "01:14"
+    },
+    {
+      "date": "2026-06-02",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 97,
+      "age": 16.4,
+      "rise": "22:45",
+      "set": "02:27"
+    },
+    {
+      "date": "2026-06-03",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 92,
+      "age": 17.4,
+      "rise": "23:45",
+      "set": "02:56"
+    },
+    {
+      "date": "2026-06-04",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 86,
+      "age": 18.4,
+      "rise": "00:51",
+      "set": "03:52"
+    },
+    {
+      "date": "2026-06-05",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 77,
+      "age": 19.4,
+      "rise": "01:23",
+      "set": "03:09"
+    },
+    {
+      "date": "2026-06-06",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 68,
+      "age": 20.4,
+      "rise": "02:29",
+      "set": "04:53"
+    },
+    {
+      "date": "2026-06-07",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 58,
+      "age": 21.4,
+      "rise": "03:05",
+      "set": "04:10"
+    },
+    {
+      "date": "2026-06-08",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 47,
+      "age": 22.4,
+      "rise": "04:56",
+      "set": "05:26"
+    },
+    {
+      "date": "2026-06-09",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 37,
+      "age": 23.4,
+      "rise": "05:29",
+      "set": "05:40"
+    },
+    {
+      "date": "2026-06-10",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 27,
+      "age": 24.4,
+      "rise": "06:52",
+      "set": "06:55"
+    },
+    {
+      "date": "2026-06-11",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 18,
+      "age": 25.4,
+      "rise": "07:50",
+      "set": "06:19"
+    },
+    {
+      "date": "2026-06-12",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 11,
+      "age": 26.4,
+      "rise": "08:24",
+      "set": "07:10"
+    },
+    {
+      "date": "2026-06-13",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 5,
+      "age": 27.4,
+      "rise": "09:16",
+      "set": "07:18"
+    },
+    {
+      "date": "2026-06-14",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 1,
+      "age": 28.4,
+      "rise": "10:32",
+      "set": "08:03"
+    },
+    {
+      "date": "2026-06-15",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 29.4,
+      "rise": "11:32",
+      "set": "08:14"
+    },
+    {
+      "date": "2026-06-16",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 1,
+      "age": 0.9,
+      "rise": "06:17",
+      "set": "18:01"
+    },
+    {
+      "date": "2026-06-17",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 4,
+      "age": 1.9,
+      "rise": "07:46",
+      "set": "18:56"
+    },
+    {
+      "date": "2026-06-18",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 9,
+      "age": 2.9,
+      "rise": "08:53",
+      "set": "19:38"
+    },
+    {
+      "date": "2026-06-19",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 16,
+      "age": 3.9,
+      "rise": "09:06",
+      "set": "19:55"
+    },
+    {
+      "date": "2026-06-20",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 25,
+      "age": 4.9,
+      "rise": "10:41",
+      "set": "20:26"
+    },
+    {
+      "date": "2026-06-21",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 34,
+      "age": 5.9,
+      "rise": "11:56",
+      "set": "20:40"
+    },
+    {
+      "date": "2026-06-22",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 45,
+      "age": 6.9,
+      "rise": "12:32",
+      "set": "21:09"
+    },
+    {
+      "date": "2026-06-23",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 55,
+      "age": 7.9,
+      "rise": "13:53",
+      "set": "21:52"
+    },
+    {
+      "date": "2026-06-24",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 66,
+      "age": 8.9,
+      "rise": "14:49",
+      "set": "22:09"
+    },
+    {
+      "date": "2026-06-25",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 75,
+      "age": 9.9,
+      "rise": "15:20",
+      "set": "22:14"
+    },
+    {
+      "date": "2026-06-26",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 84,
+      "age": 10.9,
+      "rise": "16:06",
+      "set": "23:41"
+    },
+    {
+      "date": "2026-06-27",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 91,
+      "age": 11.9,
+      "rise": "17:21",
+      "set": "23:09"
+    },
+    {
+      "date": "2026-06-28",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 96,
+      "age": 12.9,
+      "rise": "18:55",
+      "set": "00:17"
+    },
+    {
+      "date": "2026-06-29",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 99,
+      "age": 13.9,
+      "rise": "19:40",
+      "set": "00:40"
+    },
+    {
+      "date": "2026-06-30",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 14.9,
+      "rise": "20:14",
+      "set": "01:17"
+    }
+  ],
+  "2026-07": [
+    {
+      "date": "2026-07-01",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 99,
+      "age": 15.9,
+      "rise": "21:56",
+      "set": "01:12"
+    },
+    {
+      "date": "2026-07-02",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 95,
+      "age": 16.9,
+      "rise": "22:17",
+      "set": "02:19"
+    },
+    {
+      "date": "2026-07-03",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 89,
+      "age": 17.9,
+      "rise": "23:56",
+      "set": "02:21"
+    },
+    {
+      "date": "2026-07-04",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 82,
+      "age": 18.9,
+      "rise": "00:18",
+      "set": "03:09"
+    },
+    {
+      "date": "2026-07-05",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 73,
+      "age": 19.9,
+      "rise": "01:31",
+      "set": "03:58"
+    },
+    {
+      "date": "2026-07-06",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 63,
+      "age": 20.9,
+      "rise": "02:11",
+      "set": "04:35"
+    },
+    {
+      "date": "2026-07-07",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 53,
+      "age": 21.9,
+      "rise": "03:28",
+      "set": "04:24"
+    },
+    {
+      "date": "2026-07-08",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 42,
+      "age": 22.9,
+      "rise": "04:07",
+      "set": "05:24"
+    },
+    {
+      "date": "2026-07-09",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 32,
+      "age": 23.9,
+      "rise": "05:30",
+      "set": "05:29"
+    },
+    {
+      "date": "2026-07-10",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 22,
+      "age": 24.9,
+      "rise": "06:37",
+      "set": "06:25"
+    },
+    {
+      "date": "2026-07-11",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 14,
+      "age": 25.9,
+      "rise": "07:48",
+      "set": "06:10"
+    },
+    {
+      "date": "2026-07-12",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 8,
+      "age": 26.9,
+      "rise": "08:33",
+      "set": "07:42"
+    },
+    {
+      "date": "2026-07-13",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 3,
+      "age": 27.9,
+      "rise": "09:50",
+      "set": "07:05"
+    },
+    {
+      "date": "2026-07-14",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 28.9,
+      "rise": "10:36",
+      "set": "08:47"
+    },
+    {
+      "date": "2026-07-15",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 0.4,
+      "rise": "06:19",
+      "set": "18:38"
+    },
+    {
+      "date": "2026-07-16",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 2,
+      "age": 1.4,
+      "rise": "07:29",
+      "set": "18:58"
+    },
+    {
+      "date": "2026-07-17",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 6,
+      "age": 2.4,
+      "rise": "08:12",
+      "set": "19:11"
+    },
+    {
+      "date": "2026-07-18",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 12,
+      "age": 3.4,
+      "rise": "09:15",
+      "set": "19:56"
+    },
+    {
+      "date": "2026-07-19",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 20,
+      "age": 4.4,
+      "rise": "10:18",
+      "set": "20:51"
+    },
+    {
+      "date": "2026-07-20",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 29,
+      "age": 5.4,
+      "rise": "11:12",
+      "set": "20:08"
+    },
+    {
+      "date": "2026-07-21",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 39,
+      "age": 6.4,
+      "rise": "12:18",
+      "set": "21:27"
+    },
+    {
+      "date": "2026-07-22",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 50,
+      "age": 7.4,
+      "rise": "13:01",
+      "set": "21:13"
+    },
+    {
+      "date": "2026-07-23",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 60,
+      "age": 8.4,
+      "rise": "14:07",
+      "set": "22:22"
+    },
+    {
+      "date": "2026-07-24",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 70,
+      "age": 9.4,
+      "rise": "15:23",
+      "set": "22:35"
+    },
+    {
+      "date": "2026-07-25",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 80,
+      "age": 10.4,
+      "rise": "16:49",
+      "set": "23:48"
+    },
+    {
+      "date": "2026-07-26",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 87,
+      "age": 11.4,
+      "rise": "17:41",
+      "set": "23:28"
+    },
+    {
+      "date": "2026-07-27",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 94,
+      "age": 12.4,
+      "rise": "18:09",
+      "set": "00:26"
+    },
+    {
+      "date": "2026-07-28",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 98,
+      "age": 13.4,
+      "rise": "19:37",
+      "set": "00:44"
+    },
+    {
+      "date": "2026-07-29",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 14.4,
+      "rise": "20:48",
+      "set": "01:01"
+    },
+    {
+      "date": "2026-07-30",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 15.4,
+      "rise": "21:54",
+      "set": "01:24"
+    },
+    {
+      "date": "2026-07-31",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 97,
+      "age": 16.4,
+      "rise": "22:07",
+      "set": "02:59"
+    }
+  ],
+  "2026-08": [
+    {
+      "date": "2026-08-01",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 93,
+      "age": 17.4,
+      "rise": "23:35",
+      "set": "02:02"
+    },
+    {
+      "date": "2026-08-02",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 86,
+      "age": 18.4,
+      "rise": "00:56",
+      "set": "03:48"
+    },
+    {
+      "date": "2026-08-03",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 78,
+      "age": 19.4,
+      "rise": "01:51",
+      "set": "03:21"
+    },
+    {
+      "date": "2026-08-04",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 68,
+      "age": 20.4,
+      "rise": "02:04",
+      "set": "04:41"
+    },
+    {
+      "date": "2026-08-05",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 58,
+      "age": 21.4,
+      "rise": "03:57",
+      "set": "04:25"
+    },
+    {
+      "date": "2026-08-06",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 48,
+      "age": 22.4,
+      "rise": "04:36",
+      "set": "05:49"
+    },
+    {
+      "date": "2026-08-07",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 37,
+      "age": 23.4,
+      "rise": "05:01",
+      "set": "05:24"
+    },
+    {
+      "date": "2026-08-08",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 27,
+      "age": 24.4,
+      "rise": "06:45",
+      "set": "06:33"
+    },
+    {
+      "date": "2026-08-09",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 18,
+      "age": 25.4,
+      "rise": "07:53",
+      "set": "06:27"
+    },
+    {
+      "date": "2026-08-10",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 11,
+      "age": 26.4,
+      "rise": "08:54",
+      "set": "07:07"
+    },
+    {
+      "date": "2026-08-11",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 5,
+      "age": 27.4,
+      "rise": "09:35",
+      "set": "07:43"
+    },
+    {
+      "date": "2026-08-12",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 2,
+      "age": 28.4,
+      "rise": "10:53",
+      "set": "08:38"
+    },
+    {
+      "date": "2026-08-13",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 29.4,
+      "rise": "11:35",
+      "set": "08:48"
+    },
+    {
+      "date": "2026-08-14",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 1,
+      "age": 0.8,
+      "rise": "06:48",
+      "set": "18:43"
+    },
+    {
+      "date": "2026-08-15",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 4,
+      "age": 1.8,
+      "rise": "07:55",
+      "set": "18:03"
+    },
+    {
+      "date": "2026-08-16",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 9,
+      "age": 2.8,
+      "rise": "08:08",
+      "set": "19:41"
+    },
+    {
+      "date": "2026-08-17",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 16,
+      "age": 3.8,
+      "rise": "09:12",
+      "set": "19:19"
+    },
+    {
+      "date": "2026-08-18",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 24,
+      "age": 4.8,
+      "rise": "10:43",
+      "set": "20:52"
+    },
+    {
+      "date": "2026-08-19",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 34,
+      "age": 5.8,
+      "rise": "11:49",
+      "set": "20:07"
+    },
+    {
+      "date": "2026-08-20",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 44,
+      "age": 6.8,
+      "rise": "12:24",
+      "set": "21:43"
+    },
+    {
+      "date": "2026-08-21",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 55,
+      "age": 7.8,
+      "rise": "13:27",
+      "set": "21:15"
+    },
+    {
+      "date": "2026-08-22",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 65,
+      "age": 8.8,
+      "rise": "14:43",
+      "set": "22:12"
+    },
+    {
+      "date": "2026-08-23",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 75,
+      "age": 9.8,
+      "rise": "15:59",
+      "set": "22:20"
+    },
+    {
+      "date": "2026-08-24",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 84,
+      "age": 10.8,
+      "rise": "16:36",
+      "set": "23:22"
+    },
+    {
+      "date": "2026-08-25",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 91,
+      "age": 11.8,
+      "rise": "17:07",
+      "set": "23:33"
+    },
+    {
+      "date": "2026-08-26",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 96,
+      "age": 12.8,
+      "rise": "18:23",
+      "set": "00:59"
+    },
+    {
+      "date": "2026-08-27",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 99,
+      "age": 13.8,
+      "rise": "19:23",
+      "set": "00:08"
+    },
+    {
+      "date": "2026-08-28",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 14.8,
+      "rise": "20:13",
+      "set": "01:24"
+    },
+    {
+      "date": "2026-08-29",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 99,
+      "age": 15.8,
+      "rise": "21:16",
+      "set": "01:00"
+    },
+    {
+      "date": "2026-08-30",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 95,
+      "age": 16.8,
+      "rise": "22:02",
+      "set": "02:00"
+    },
+    {
+      "date": "2026-08-31",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 90,
+      "age": 17.8,
+      "rise": "23:14",
+      "set": "02:13"
+    }
+  ],
+  "2026-09": [
+    {
+      "date": "2026-09-01",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 82,
+      "age": 18.8,
+      "rise": "00:16",
+      "set": "03:50"
+    },
+    {
+      "date": "2026-09-02",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 74,
+      "age": 19.8,
+      "rise": "01:49",
+      "set": "03:34"
+    },
+    {
+      "date": "2026-09-03",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 64,
+      "age": 20.8,
+      "rise": "02:12",
+      "set": "04:57"
+    },
+    {
+      "date": "2026-09-04",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 53,
+      "age": 21.8,
+      "rise": "03:42",
+      "set": "04:39"
+    },
+    {
+      "date": "2026-09-05",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 43,
+      "age": 22.8,
+      "rise": "04:57",
+      "set": "05:04"
+    },
+    {
+      "date": "2026-09-06",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 32,
+      "age": 23.8,
+      "rise": "05:17",
+      "set": "05:48"
+    },
+    {
+      "date": "2026-09-07",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 23,
+      "age": 24.8,
+      "rise": "06:38",
+      "set": "06:13"
+    },
+    {
+      "date": "2026-09-08",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 15,
+      "age": 25.8,
+      "rise": "07:36",
+      "set": "06:05"
+    },
+    {
+      "date": "2026-09-09",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 8,
+      "age": 26.8,
+      "rise": "08:28",
+      "set": "07:57"
+    },
+    {
+      "date": "2026-09-10",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 3,
+      "age": 27.8,
+      "rise": "09:48",
+      "set": "07:14"
+    },
+    {
+      "date": "2026-09-11",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 1,
+      "age": 28.8,
+      "rise": "10:26",
+      "set": "08:28"
+    },
+    {
+      "date": "2026-09-12",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 0.3,
+      "rise": "06:18",
+      "set": "18:21"
+    },
+    {
+      "date": "2026-09-13",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 2,
+      "age": 1.3,
+      "rise": "07:49",
+      "set": "18:07"
+    },
+    {
+      "date": "2026-09-14",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 6,
+      "age": 2.3,
+      "rise": "08:19",
+      "set": "19:58"
+    },
+    {
+      "date": "2026-09-15",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 12,
+      "age": 3.3,
+      "rise": "09:14",
+      "set": "19:39"
+    },
+    {
+      "date": "2026-09-16",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 20,
+      "age": 4.3,
+      "rise": "10:35",
+      "set": "20:56"
+    },
+    {
+      "date": "2026-09-17",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 29,
+      "age": 5.3,
+      "rise": "11:37",
+      "set": "20:39"
+    },
+    {
+      "date": "2026-09-18",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 39,
+      "age": 6.3,
+      "rise": "12:27",
+      "set": "21:18"
+    },
+    {
+      "date": "2026-09-19",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 49,
+      "age": 7.3,
+      "rise": "13:00",
+      "set": "21:15"
+    },
+    {
+      "date": "2026-09-20",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 60,
+      "age": 8.3,
+      "rise": "14:48",
+      "set": "22:02"
+    },
+    {
+      "date": "2026-09-21",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 70,
+      "age": 9.3,
+      "rise": "15:22",
+      "set": "22:27"
+    },
+    {
+      "date": "2026-09-22",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 79,
+      "age": 10.3,
+      "rise": "16:20",
+      "set": "23:53"
+    },
+    {
+      "date": "2026-09-23",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 87,
+      "age": 11.3,
+      "rise": "17:23",
+      "set": "23:57"
+    },
+    {
+      "date": "2026-09-24",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 93,
+      "age": 12.3,
+      "rise": "18:25",
+      "set": "00:58"
+    },
+    {
+      "date": "2026-09-25",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 98,
+      "age": 13.3,
+      "rise": "19:29",
+      "set": "00:41"
+    },
+    {
+      "date": "2026-09-26",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 14.3,
+      "rise": "20:45",
+      "set": "01:47"
+    },
+    {
+      "date": "2026-09-27",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 15.3,
+      "rise": "21:04",
+      "set": "01:11"
+    },
+    {
+      "date": "2026-09-28",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 97,
+      "age": 16.3,
+      "rise": "22:27",
+      "set": "02:20"
+    },
+    {
+      "date": "2026-09-29",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 93,
+      "age": 17.3,
+      "rise": "23:12",
+      "set": "02:10"
+    },
+    {
+      "date": "2026-09-30",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 86,
+      "age": 18.3,
+      "rise": "00:41",
+      "set": "03:25"
+    }
+  ],
+  "2026-10": [
+    {
+      "date": "2026-10-01",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 78,
+      "age": 19.3,
+      "rise": "01:23",
+      "set": "03:16"
+    },
+    {
+      "date": "2026-10-02",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 69,
+      "age": 20.3,
+      "rise": "02:18",
+      "set": "04:24"
+    },
+    {
+      "date": "2026-10-03",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 59,
+      "age": 21.3,
+      "rise": "03:06",
+      "set": "04:32"
+    },
+    {
+      "date": "2026-10-04",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 48,
+      "age": 22.3,
+      "rise": "04:04",
+      "set": "05:49"
+    },
+    {
+      "date": "2026-10-05",
+      "phase": "Последняя четверть",
+      "icon": "third-quarter.svg",
+      "visibility": 38,
+      "age": 23.3,
+      "rise": "05:13",
+      "set": "05:43"
+    },
+    {
+      "date": "2026-10-06",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 28,
+      "age": 24.3,
+      "rise": "06:36",
+      "set": "06:34"
+    },
+    {
+      "date": "2026-10-07",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 19,
+      "age": 25.3,
+      "rise": "07:32",
+      "set": "06:56"
+    },
+    {
+      "date": "2026-10-08",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 11,
+      "age": 26.3,
+      "rise": "08:15",
+      "set": "07:16"
+    },
+    {
+      "date": "2026-10-09",
+      "phase": "Старая Луна",
+      "icon": "waning-crescent.svg",
+      "visibility": 5,
+      "age": 27.3,
+      "rise": "09:06",
+      "set": "07:37"
+    },
+    {
+      "date": "2026-10-10",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 2,
+      "age": 28.3,
+      "rise": "10:30",
+      "set": "08:29"
+    },
+    {
+      "date": "2026-10-11",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 0,
+      "age": 29.3,
+      "rise": "11:19",
+      "set": "08:36"
+    },
+    {
+      "date": "2026-10-12",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 1,
+      "age": 0.8,
+      "rise": "06:52",
+      "set": "18:13"
+    },
+    {
+      "date": "2026-10-13",
+      "phase": "Новолуние",
+      "icon": "new-moon.svg",
+      "visibility": 4,
+      "age": 1.8,
+      "rise": "07:15",
+      "set": "18:06"
+    },
+    {
+      "date": "2026-10-14",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 8,
+      "age": 2.8,
+      "rise": "08:50",
+      "set": "19:45"
+    },
+    {
+      "date": "2026-10-15",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 15,
+      "age": 3.8,
+      "rise": "09:15",
+      "set": "19:25"
+    },
+    {
+      "date": "2026-10-16",
+      "phase": "Молодая Луна",
+      "icon": "waxing-crescent.svg",
+      "visibility": 24,
+      "age": 4.8,
+      "rise": "10:41",
+      "set": "20:16"
+    },
+    {
+      "date": "2026-10-17",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 33,
+      "age": 5.8,
+      "rise": "11:42",
+      "set": "20:13"
+    },
+    {
+      "date": "2026-10-18",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 44,
+      "age": 6.8,
+      "rise": "12:47",
+      "set": "21:39"
+    },
+    {
+      "date": "2026-10-19",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 54,
+      "age": 7.8,
+      "rise": "13:25",
+      "set": "21:45"
+    },
+    {
+      "date": "2026-10-20",
+      "phase": "Первая четверть",
+      "icon": "first-quarter.svg",
+      "visibility": 65,
+      "age": 8.8,
+      "rise": "14:05",
+      "set": "22:51"
+    },
+    {
+      "date": "2026-10-21",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 74,
+      "age": 9.8,
+      "rise": "15:23",
+      "set": "22:25"
+    },
+    {
+      "date": "2026-10-22",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 83,
+      "age": 10.8,
+      "rise": "16:48",
+      "set": "23:20"
+    },
+    {
+      "date": "2026-10-23",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 90,
+      "age": 11.8,
+      "rise": "17:46",
+      "set": "23:18"
+    },
+    {
+      "date": "2026-10-24",
+      "phase": "Растущая Луна",
+      "icon": "waxing-gibbous.svg",
+      "visibility": 96,
+      "age": 12.8,
+      "rise": "18:24",
+      "set": "00:22"
+    },
+    {
+      "date": "2026-10-25",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 99,
+      "age": 13.8,
+      "rise": "19:50",
+      "set": "00:57"
+    },
+    {
+      "date": "2026-10-26",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 100,
+      "age": 14.8,
+      "rise": "20:13",
+      "set": "01:17"
+    },
+    {
+      "date": "2026-10-27",
+      "phase": "Полнолуние",
+      "icon": "full-moon.svg",
+      "visibility": 99,
+      "age": 15.8,
+      "rise": "21:19",
+      "set": "01:55"
+    },
+    {
+      "date": "2026-10-28",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 95,
+      "age": 16.8,
+      "rise": "22:04",
+      "set": "02:39"
+    },
+    {
+      "date": "2026-10-29",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 90,
+      "age": 17.8,
+      "rise": "23:47",
+      "set": "02:28"
+    },
+    {
+      "date": "2026-10-30",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 83,
+      "age": 18.8,
+      "rise": "00:53",
+      "set": "03:22"
+    },
+    {
+      "date": "2026-10-31",
+      "phase": "Убывающая Луна",
+      "icon": "waning-gibbous.svg",
+      "visibility": 74,
+      "age": 19.8,
+      "rise": "01:17",
+      "set": "03:48"
+    }
+  ]
+}

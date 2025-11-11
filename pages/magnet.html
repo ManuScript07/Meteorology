@@ -14,13 +14,15 @@
     <div id="Top"></div>
     <header>
         <div class="header-inner">
-            <div class = "logo-block">
-                <a href="#Top"><img src="/source/favicon.png" alt="Логотиип"></a>
-                <div class="logo-text">
-                    <h1 class="site-name">Метеорология</h1>
-                    <p><i>Погода Советы Новости</i></p>
+             <a href="index.html">
+                <div class = "logo-block">
+                    <img src="/source/favicon.png" alt="Логотиип">
+                    <div class="logo-text">
+                        <h1 class="site-name">Метеорология</h1>
+                        <p><i>Погода Советы Новости</i></p>
+                    </div>
                 </div>
-            </div>
+            </a>
             
             <input type="checkbox" id="menu-toggle" class="menu-toggle">
             <label for="menu-toggle" class="burger">
@@ -34,7 +36,6 @@
                     <li><a href="index.html#ForecastForTheWeek">Неделя</a></li>
                     <li><a href="index.html#Advice">Советы</a></li>
                     <li><a href="#Review">Новости</a></li>
-                    <li><a href="gallery.html">Галерея</a></li>
                     <li><a href="#Other">О нас</a></li>
                 </ul>
             </nav>
@@ -57,6 +58,7 @@
     </header>
     <main>
         <div class="main-content-container">
+            <div class="content-wrapper">
             <div class="current-location" id="openRegionModal">
                 <div class="content">
                     <svg class="location-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
@@ -103,48 +105,46 @@
                 </div>
             </div>
             <div class="content-container">
-            <div slass="magnet-container">
+            <div class="magnet-container">
                 <section class="magnet-section">
                     <div class="magnet-header">
                         <div class="magnet-scale">
-                        <svg viewBox="0 0 96 77" xmlns="http://www.w3.org/2000/svg">
-                            <path class="scale-bg" d="M11.45 72.5a44 44 0 1 1 73.1 0" />
-                            <path class="scale-fill" d="M11.45 72.5a44 44 0 1 1 73.1 0" />
-                        </svg>
-                        <div class="scale-value" title="Спокойное">2</div>
+                            <svg viewBox="0 0 96 77" xmlns="http://www.w3.org/2000/svg">
+                                <path class="scale-bg" d="M11.45 72.5a44 44 0 1 1 73.1 0" />
+                                <path class="scale-fill" d="M11.45 72.5a44 44 0 1 1 73.1 0" />
+                            </svg>
+                            <div class="scale-description">
+                                <span class="scale-value" title="Спокойное">2</span>
+                                <span class="scale-caption">Kp</span>
+                            </div>
                         </div>
 
                         <div class="magnet-info">
-                        <h2>Геомагнитное поле</h2>
-                        <p>
-                            <span class="state-label calm">Спокойное</span><br />
-                            7 ноября после 0:00 будет <span class="state-label weak">слабая магнитная буря</span>.
-                        </p>
+                            <h2>Геомагнитное поле в городе </h2>
+                            <div>
+                                <span class="state-label calm">Спокойное</span>
+                                <span>7 ноября после 0:00 будет слабая магнитная буря</span>
+                            </div>
                         </div>
                     </div>
+                    <section class="magnet-forecast">
+                        <div class="magnet-day">
+                            <h4>Сегодня <span class="date">7 ноября</span></h4>
+                            <div class="magnet-bars" id="magnetBarsToday"></div>
+                        </div>
+                        <div class="magnet-day">
+                            <h4>Завтра <span class="date">8 ноября</span></h4>
+                            <div class="magnet-bars" id="magnetBarsTomorrow"></div>
+                        </div>
+                        <div class="magnet-day">
+                            <h4>Пятница <span class="date">9 ноября</span></h4>
+                            <div class="magnet-bars" id="magnetBarsAfter"></div>
+                        </div>
+                    </section>
                 </section>
 
-                    <!-- Диаграммы -->
-                <section class="magnet-forecast">
-                <h3>Прогноз магнитного поля</h3>
 
-                <div class="magnet-day">
-                    <h4>Сегодня <span class="date">7 ноября</span></h4>
-                    <div class="magnet-bars" id="magnetBarsToday"></div>
-                </div>
-
-                <div class="magnet-day">
-                    <h4>Завтра <span class="date">8 ноября</span></h4>
-                    <div class="magnet-bars" id="magnetBarsTomorrow"></div>
-                </div>
-
-                <div class="magnet-day">
-                    <h4>Пятница <span class="date">9 ноября</span></h4>
-                    <div class="magnet-bars" id="magnetBarsAfter"></div>
-                </div>
-                </section>
-
-                <section id="faq-section" class="faq-section"></section>
+                <section id="faq-magnet" class="faq-section"></section>
             </div>
 
             <section class="section-review" id="Review">
@@ -153,37 +153,37 @@
             <div class="review-1">
                 <div class="review-item" id="tall-box">
                     <div class="content">
-                        <img src="/source/grid_galary/moscow-rain.jpg" alt="Moscow rain">
+                        <img loading="lazy" decoding="acysc"  alt="Moscow rain">
                         <div  class="text-content">
-                            <h3>Сейчас в Москве</h3>
-                            <p>Дождь закончится через 3 часа</p>
+                            <h3></h3>
+                            <p></p>
                         </div>
                     </div>
                 </div>
                 <div class="review-item">
                     <div class="content">
-                        <img src="/source/grid_galary/pic2.jpeg" alt="">
+                        <img loading="lazy" decoding="acysc" alt="">
                         <div  class="text-content">
-                            <h3>Погода на неделю</h3>
-                            <p>Посмотрите актуальный прогноз в соответсвующем разделе</p>
+                            <h3></h3>
+                            <p></p>
                         </div>
                     </div>
                 </div>
                 <div class="review-item">
                     <div class="content">
-                        <img src="/source/grid_galary/malash.png" alt="">
+                        <img loading="lazy" decoding="acysc" alt="">
                         <div  class="text-content">
-                            <h3 style="font-size: 1rem;">Вставьте лук</h3>
-                            <p>Это кликбейт, что ты здесь хотел увидеть</p>
+                            <h3 style="font-size: 1rem;"></h3>
+                            <p></p>
                         </div>
                     </div>
                 </div>
                 <div class="review-item" id="wide-box">
                     <div class="content">
-                        <img src="/source/grid_galary/frog-rain.png" alt="">
+                        <img loading="lazy" decoding="acysc" alt="">
                         <div  class="text-content">
-                            <h3>Ожидается дождь из лягушек</h3>
-                            <p>В Ромашковой долине прошёл дождь из лягушек. По словам Лосяша причиной стало торнадо, поднявшее лягушек из болота и перенёсшее сюда. Однако остальные смешарики считают причиной высшие силы.</p>
+                            <h3></h3>
+                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -191,43 +191,44 @@
             <div class="review-2">
                 <div class="review-item" id="wide-box">
                     <div class="content">
-                        <img src="/source/grid_galary/buterfly.jpeg" alt="">
+                        <img loading="lazy" decoding="acysc" alt="">
                         <div  class="text-content">
-                            <h3>Новый вид бабочек</h3>
-                            <p>Лосяш открыл новый вид бабочек</p>
+                            <h3></h3>
+                            <p></p>
                         </div>
                     </div>
                 </div>
                 <div class="review-item" id="tall-box">
                     <div class="content">
-                        <img src="/source/grid_galary/wated_letta.jpg" alt="">
+                        <img loading="lazy" decoding="acysc" src="" alt="">
                         <div  class="text-content">
-                            <h3>Внимание розыск!</h3>
-                            <p>Её ищет вся полиция. Не сдала ни одной работы по ПРИРКЧИР'у</p>
+                            <h3></h3>
+                            <p></p>
                         </div>
                     </div>
                 </div>
                 <div class="review-item">
                     <div class="content">
-                        <img src="/source/grid_galary/wanted_kirill.jpg" alt="">
+                        <img loading="lazy" decoding="acysc" src="" alt="">
                         <div  class="text-content">
-                            <h3>Внимание розыск!</h3>
-                            <p>Сообщник Виолетты</p>
+                            <h3></h3>
+                            <p></p>
                         </div>
                     </div>
                 </div>
                 <div class="review-item">
                     <div class="content">
-                        <img src="/source/grid_galary/wanted_kostya.jpg" alt="">
+                        <img loading="lazy" decoding="acysc" src="" alt="">
                         <div  class="text-content">
-                            <h3>Внимание розыск!</h3>
-                            <p>Враг рейахахахаххахха</p>
+                            <h3></h3>
+                            <p></p>
                         </div>
                     </div>
                 </div>
             </div>
             </div>
         </section>
+        </div>
         </div>
         </div>
         <a href="#Top" id = "button__top">
@@ -240,7 +241,7 @@
         <div class="footer-container glass-footer">
             <div class="footer-column about-us">
             <h3>О нас</h3>
-            <p>Метеорология — это интерактивный проект о технологиях, погоде и жизни в мегаполисе. Мы делаем сложное простым и вдохновляем на развитие.</p>
+            <p>Метеорология — это современный проект о погоде и климате, объединяющий данные, наблюдения и аналитику, чтобы показать, как природные процессы влияют на нашу повседневность.</p>
             <div class="social">
                 <div class="link-container">
                 <a href="https://vk.com/tirlicurendui" target="_blank">
@@ -269,10 +270,11 @@
             <div class="footer-column">
             <h3>Навигация</h3>
             <ul>
-                <li><a href="#">Погода на неделю</a></li>
-                <li><a href="#">Погода на карте</a></li>
-                <li><a href="#">Новости</a></li>
-                <li><a href="#">Галерея</a></li>
+                <li><a href="index.html#Weather-now">Прогноз погоды</a></li>
+                <li><a href="pollen.html">Активность пыльцы</a></li>
+                <li><a href="magnet.html">Магнитное поле</a></li>
+                <li><a href="uv.html">Ультрафиолет</a></li>
+                <li><a href="moon.html">Фазы Луны</a></li>
             </ul>
             </div>
 

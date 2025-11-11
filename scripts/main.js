@@ -1,6 +1,7 @@
 import { setupCityModal } from "./changeRegion.js";
 import { updateWeatherData } from "./weatherUpdater.js";
 import { buttonTop } from "./buttonTop.js";
+import { loadNews } from "./loadNews.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const currentCity = document.getElementById("currentCity");
@@ -10,6 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   updateWeatherData(savedCity);
   setupCityModal();
-
+  loadNews("/source/data/main-news.json");
   buttonTop();
 });

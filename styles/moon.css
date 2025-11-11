@@ -1,0 +1,350 @@
+@import url("root.css");
+@import url("header.css");
+@import url("burger.css");
+@import url("notification.css");
+@import url("body.css");
+@import url("titles.css");
+@import url("main.css");
+@import url("modal_window.css");
+@import url("bars.css");
+@import url("faq.css");
+@import url("review.css");
+@import url("footer.css");
+@import url("button_top.css");
+
+
+
+:root{
+    --color-secondary: rgba(255, 255, 255, 0.56);
+}
+
+.main-content-container{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.content-wrapper{
+    max-width: 100%;
+}
+
+.section-review{
+    max-width: 700px;
+}
+
+.review {
+    grid-template-columns: 1fr;
+}
+
+
+.moon-section {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 28px 48px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    color: #fff;
+}
+
+.moon-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 18px;
+}
+
+.moon-now {
+    width: 80px;
+    height: 80px;
+}
+
+
+.moon-description-now {
+    line-height: 1;
+}
+
+.moon-description-now .moon-date {
+    font-size: 0.95rem;
+    margin: 0 0 5px;
+    color: var(--color-secondary);
+}
+
+.moon-description-now .moon-type {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.moon-parameters-now {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.param {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 16px 20px;
+}
+
+.param .title {
+    font-size: 0.9rem;
+    margin: 0;
+    color: var(--color-secondary);
+}
+
+.param .value {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+
+.moon-loop-description{
+    margin-bottom: 0;
+    padding: 0 20px;
+}
+
+.phase-h{
+    margin: 25px 0 8px;
+}
+
+.month-buttons{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 10px;
+    padding: 8px 0;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none; 
+}
+
+.month-buttons::-webkit-scrollbar {
+    display: none;
+}
+
+.month-btn {
+    background: rgba(255, 255, 255, 0.06);
+    width: max-content;
+    color: #fff;
+    border: none;
+    padding: 9px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.25s;
+    font-size: 1rem;
+}
+
+.month-btn.active {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.month-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.moon-calendar {
+    margin-bottom: 14px;
+}
+
+.weekdays {
+    color: var(--color-secondary);
+    font-weight: 600;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 8px;
+    text-align: center;
+}
+
+.calendar-grid .day {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4px;
+    padding: 6px 5px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+    transition: background 0.25s;
+}
+
+.calendar-grid .day.active {
+    border: 2px solid rgba(255, 255, 255, 0.9);
+}
+
+
+.calendar-grid .day div{
+    align-self: flex-start;
+}
+
+.calendar-grid .day img {
+    align-self: flex-end;
+    width: 30px;
+    height: 30px;
+}
+
+.moon-container-on {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding: 20px 32px 20px 16px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+}
+
+.moon-container-on p{
+    margin: 0;
+}
+
+.moon-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.moon-on {
+    width: 32px;
+    height: 32px;
+}
+
+.moon-description-on{
+    line-height: 1.1;
+}
+
+.moon-description-on .date{
+    color: var(--color-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+}
+
+
+.moon-description-on .type{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.moon-parameters-on {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.param-on{
+    line-height: 1.1;
+}
+
+.moon-parameters-on .title{
+    color: var(--color-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 2px;
+}
+
+.moon-parameters-on .value{
+    font-size: 1.1rem;
+}
+
+
+@media (min-width: 1200px) {
+    .content-container{
+        display: grid;
+        grid-template-columns: 5fr 4fr;
+        column-gap: 10px;
+        margin: 0 auto;
+    }
+    .section-review{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 750px){
+
+    .moon-section{
+        padding: 20px 10px;
+    }
+
+    .moon-header{
+        flex-direction: column;
+    }
+    .moon-now{
+        width: 60px;
+        height: 60px;
+    }
+
+    .moon-description-now {
+        text-align: center;
+    }
+
+    .moon-description-now .moon-type{
+        font-size: 1.2rem;
+    }
+
+    .moon-parameters-now {
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+    }
+
+    .param .value {
+        font-size: 1.1rem;
+    }
+
+    .moon-loop-description {
+        padding: 0 12px;
+    }
+
+    .month-btn {
+        font-size: 0.85rem;
+        padding: 6px 10px;
+    }
+
+    .calendar-grid{
+        gap: 4px
+    }
+
+    .calendar-grid .day {
+        padding: 4px 6px 10px 4px;
+    }
+
+    .calendar-grid .day img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .moon-container-on{
+        flex-direction: column;
+        padding: 16px 10px;
+        gap: 6px
+    }
+
+    .moon-title{
+        align-self: flex-start;
+    }
+
+    .moon-parameters-on{
+        width: 100%;
+        flex-grow: 0;
+        justify-content: space-between;
+    }
+}
+
+
+@media (max-width: 400px){
+     .moon-parameters-on .title{
+        font-size: 0.8rem;
+    }
+
+    .moon-parameters-on .value{
+        font-size: 0.9rem;
+    }
+}

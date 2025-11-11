@@ -8,13 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/pollen.css">
+    <link rel="stylesheet" href="/styles/uv.css">
 </head>
 <body>
     <div id="Top"></div>
     <header>
         <div class="header-inner">
-             <a href="index.html">
+            <a href="index.html">
                 <div class = "logo-block">
                     <img src="/source/favicon.png" alt="Логотиип">
                     <div class="logo-text">
@@ -105,32 +105,89 @@
                 </div>
             </div>
             <div class="content-container">
-            <div slass="pollen-container">
-                <section class="pollen-section">
-                    <h2 class="pollen-title"><span class="status low">Низкая активность</span> пыльцы</h2>
-                    <p class="pollen-description">
-                        Сегодня и завтра низкая активность сорняков и полыни.
-                    </p>
-
-                    <div class="pollen-buttons">
-                        <button class="pollen-btn active" data-type="weeds">Сорняки</button>
-                        <button class="pollen-btn" data-type="mugwort">Полынь</button>
-                        <button class="pollen-btn" data-type="birch">Берёза</button>
-                        <button class="pollen-btn" data-type="alder">Ольха</button>
-                        <button class="pollen-btn" data-type="alder">Злаки</button>
-                        <button class="pollen-btn" data-type="ragweed">Амброзия</button>
-                    </div>
-
-                    <div class="pollen-block">
-                        <div class="pollen-info">
-                            <h3 id="allergen-name">Сорняки</h3>
-                            <p id="allergen-status">Сегодня <span class="status">низкая активность</span></p>
+            <div class="uv-container">
+                <section class="uv-section">
+                    <div class="uv-header-wrapper">
+                    <div class="uv-header">
+                        <h3>Уф-индекс</h3>
+                        <div class="uv-days">
+                            <ul class="uv-day-list">
+                                <li class="uv-day active">
+                                <span class="uv-dot" style="background: rgb(51, 193, 21)"></span>
+                                Сегодня
+                                </li>
+                                <li class="uv-day">
+                                <span class="uv-dot" style="background: rgb(255, 212, 0)"></span>
+                                Завтра
+                                </li>
+                                <li class="uv-day">
+                                <span class="uv-dot" style="background: rgb(255, 126, 1)"></span>
+                                Ср, 6
+                                </li>
+                                <li class="uv-day">
+                                <span class="uv-dot" style="background: rgb(195, 1, 1)"></span>
+                                Чт, 7
+                                </li>
+                                <li class="uv-day">
+                                <span class="uv-dot" style="background: rgb(87, 52, 141)"></span>
+                                Пт, 8
+                                </li>
+                            </ul>
                         </div>
 
-                        <div class="pollen-bars" id="pollenBars"></div>
+                        <div class="uv-info">
+                        <div class="uv-info-left">
+                            <h3>УФ-индекс</h3>
+                            <div class="uv-status">
+                                <span>Сегодня </span>
+                                <span class="uv-level-circle low">2</span>
+                            </div>
+                            <p class="uv-description">Солнце доброе, защита не нужна</p>
+                        </div>
+
+                        <div class="uv-info-right">
+                            <div class="uv-circle-indicator low"></div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="uv-chart-section">
+                        <div class="bar-chart" id="uvBars"></div>
+                    </div>
+                    <div class="uv-legend">
+                        <h3>Какой бывает УФ-индекс</h3>
+                        <div class="uv-legend-items">
+                        <div class="uv-legend-item">
+                            <span class="uv-legend-circle low"></span>
+                            <span class="uv-index">0–2</span>
+                            <span class="uv-level">Низкий</span>
+                        </div>
+                        <div class="uv-legend-item">
+                            <span class="uv-legend-circle moderate"></span>
+                            <span class="uv-index">3–5</span>
+                            <span class="uv-level">Умеренный</span>
+                        </div>
+                        <div class="uv-legend-item">
+                            <span class="uv-legend-circle high"></span>
+                            <span class="uv-index">6–7</span>
+                            <span class="uv-level">Высокий</span>
+                        </div>
+                        <div class="uv-legend-item">
+                            <span class="uv-legend-circle very-high"></span>
+                            <span class="uv-index">8–10</span>
+                            <span class="uv-level">Очень высокий</span>
+                        </div>
+                        <div class="uv-legend-item">
+                            <span class="uv-legend-circle extreme"></span>
+                            <span class="uv-index">11+</span>
+                            <span class="uv-level">Экстремальный</span>
+                        </div>
+                        </div>
                     </div>
                 </section>
-                <section id="faq-pollen" class="faq-section"></section>
+
+                <section id="faq-uv" class="faq-section"></section>
             </div>
 
             <section class="section-review" id="Review">
@@ -216,6 +273,7 @@
         </section>
         </div>
         </div>
+        </div>
         <a href="#Top" id = "button__top">
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1586f7">
                 <path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"/>
@@ -285,6 +343,6 @@
         <p class="copyright"><small>© 2025 Метеорология. Все права защищены.</small></p>
     </footer>
     
-    <script type="module" src="/scripts/pollen.js"></script>
+    <script type="module" src="/scripts/uv.js"></script>
 </body>
 </html>

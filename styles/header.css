@@ -1,7 +1,7 @@
 header {
     position: sticky;
     top: 0;
-    z-index: 3;
+    z-index: 3000;
 
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ header::before {
     max-width: 1200px;
     display: flex;
     align-items: center;
-    gap: 5rem;
+    gap: 8rem;
 }
 
 .logo-block {
@@ -63,9 +63,18 @@ header::before {
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 @media (max-width: 1300px){
     header{
         justify-content: flex-start;
+    }
+
+    .header-inner{
+        gap: 5px
     }
 }
 
@@ -97,6 +106,12 @@ header::before {
     .site-name {
         font-size: 1rem;
         letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 330px){
+    .logo-text{
+        display: none;
     }
 }
 

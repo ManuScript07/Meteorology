@@ -1,5 +1,8 @@
 import { updateWeatherData } from "./weatherUpdater.js";
 import { updatePollenData } from "./pollen.js";
+import { updateMagnetData } from "./magnet.js";
+import { updateUVData } from "./uv.js";
+import { updateMoonData } from "./moon.js";
 
 export function setupCityModal() {
   const modal = document.getElementById("regionModal");
@@ -112,7 +115,18 @@ export function setupCityModal() {
     if (path.includes("pollen")) {
       console.log("Обновляем данные пыльцы");
       updatePollenData?.(newCity);
-    } else {
+    } else if (path.includes("magnet")) {
+      console.log("Обновляем данные магнитного поля");
+      updateMagnetData?.(newCity);
+    } else if (path.includes("uv")) {
+      console.log("Обновляем данные уф-индекса");
+      updateUVData?.(newCity);
+    
+    } else if (path.includes("moon")) {
+      console.log("Обновляем данные луны");
+      updateMoonData?.(newCity);
+    }
+    else {
       console.log("Обновляем данные погоды");
       updateWeatherData?.(newCity);
     }

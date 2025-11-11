@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/pollen.css">
+    <link rel="stylesheet" href="/styles/moon.css">
 </head>
 <body>
     <div id="Top"></div>
@@ -105,32 +105,75 @@
                 </div>
             </div>
             <div class="content-container">
-            <div slass="pollen-container">
-                <section class="pollen-section">
-                    <h2 class="pollen-title"><span class="status low">Низкая активность</span> пыльцы</h2>
-                    <p class="pollen-description">
-                        Сегодня и завтра низкая активность сорняков и полыни.
+            <div slass="moon-container">
+                <section class="moon-section">
+                    <div class="moon-header">
+                        <img class="moon-now" src="/source/moon/full-moon.svg" alt="moon">
+                        <div class="moon-description-now">
+                            <p class="moon-date">Пт, 8 ноября</p>
+                            <h2 class="moon-type">Убывающая Луна</h2>
+                        </div>
+                    </div>
+
+                    <div class="moon-parameters-now">
+                        <div class="param visibility">
+                            <p class="title">Видимость</p>
+                            <p class="value">68%</p>
+                        </div>
+                        <div class="param age">
+                            <p class="title">Возраст</p>
+                            <p class="value">18 дней</p>
+                        </div>
+                        <div class="param moonrise">
+                            <p class="title">Восход</p>
+                            <p class="value">22:47</p>
+                        </div>
+                        <div class="param moonset">
+                            <p class="title">Заход</p>
+                            <p class="value">12:35</p>
+                        </div>
+                    </div>
+
+                    <p class="moon-loop-description">
+                        Текущий лунный цикл начался 21 октября. Новолуние наступит 20 ноября, а полнолуние 5 декабря.
                     </p>
 
-                    <div class="pollen-buttons">
-                        <button class="pollen-btn active" data-type="weeds">Сорняки</button>
-                        <button class="pollen-btn" data-type="mugwort">Полынь</button>
-                        <button class="pollen-btn" data-type="birch">Берёза</button>
-                        <button class="pollen-btn" data-type="alder">Ольха</button>
-                        <button class="pollen-btn" data-type="alder">Злаки</button>
-                        <button class="pollen-btn" data-type="ragweed">Амброзия</button>
+                    <h2 class="phase-h">Фазы Луны</h2>
+
+                    <div class="moon-calendar">
+                        <div class="calendar-grid" id="calendarGrid">
+                        </div>
                     </div>
 
-                    <div class="pollen-block">
-                        <div class="pollen-info">
-                            <h3 id="allergen-name">Сорняки</h3>
-                            <p id="allergen-status">Сегодня <span class="status">низкая активность</span></p>
+                    <div class="moon-container-on">
+                        <div class="moon-title">
+                            <img class="moon-on" src="/source/moon/first-quarter.svg" alt="moon">
+                            <div class="moon-description-on">
+                                <p class="date">8 ноября</p>
+                                <p class="type">Убывающая Луна</p>
+                            </div>
                         </div>
-
-                        <div class="pollen-bars" id="pollenBars"></div>
+                        <div class="moon-parameters-on">
+                            <div class="param-on visibility">
+                                <p class="title">Видимость</p>
+                                <p class="value">68%</p>
+                            </div>
+                            <div class="param-on age">
+                                <p class="title">Возраст</p>
+                                <p class="value">18 дней</p>
+                            </div>
+                            <div class="param-on moonrise">
+                                <p class="title">Восход</p>
+                                <p class="value">22:47</p>
+                            </div>
+                            <div class="param-on moonset">
+                                <p class="title">Заход</p>
+                                <p class="value">12:35</p>
+                            </div>
+                        </div>
                     </div>
                 </section>
-                <section id="faq-pollen" class="faq-section"></section>
+                <section id="faq-moon" class="faq-section"></section>
             </div>
 
             <section class="section-review" id="Review">
@@ -285,6 +328,6 @@
         <p class="copyright"><small>© 2025 Метеорология. Все права защищены.</small></p>
     </footer>
     
-    <script type="module" src="/scripts/pollen.js"></script>
+    <script type="module" src="/scripts/moon.js"></script>
 </body>
 </html>
