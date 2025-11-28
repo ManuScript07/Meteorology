@@ -1,27 +1,27 @@
 {
   "news": [
     {
-      "image": "source/grid_galary/main-news/snowy-street.jpg",
+      "image": "/source/grid_galary/main-news/snowy-street.jpg",
       "title": "В Москве ожидается первый снег",
       "text": "Синоптики прогнозируют лёгкие осадки и понижение температуры до −2 °C уже к вечеру."
     },
     {
-      "image": "source/grid_galary/main-news/wind-trees.jpg",
+      "image": "/source/grid_galary/main-news/wind-trees.jpg",
       "title": "Усиление ветра в центральных регионах",
       "text": "Порывы до 18 м/с возможны во второй половине дня. Рекомендуется ограничить прогулки в парках."
     },
     {
-      "image": "source/grid_galary/main-news/rain-road.jpg",
+      "image": "/source/grid_galary/main-news/rain-road.jpg",
       "title": "Дождливое утро в столице",
       "text": "Небольшой дождь продлится до полудня, после чего ожидаются кратковременные прояснения."
     },
     {
-      "image": "source/grid_galary/main-news/sunset-clouds.png",
+      "image": "/source/grid_galary/main-news/sunset-clouds.png",
       "title": "Красочный закат после грозы",
       "text": "Жители южных районов города наблюдали редкое сочетание грозовых облаков и вечернего солнца."
     },
     {
-      "image": "source/grid_galary/main-news/fog-bridge.png",
+      "image": "/source/grid_galary/main-news/fog-bridge.png",
       "title": "Плотный туман утром",
       "text": "Из-за перепада температур в ночные часы образуется густой туман, видимость снизится до 200 м."
     },
