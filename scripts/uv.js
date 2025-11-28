@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   setupCityModal();
   updateUVData(savedCity);
-  loadNews("/source/data/main-news.json");
-  loadFAQ("faq-uv", "/source/data/faq-uv.json");
+  loadNews("source/data/main-news.json");
+  loadFAQ("faq-uv", "source/data/faq-uv.json");
   buttonTop();
 });
 

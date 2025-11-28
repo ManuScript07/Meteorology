@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   setupCityModal();
   updatePollenData(savedCity);
-  loadNews("/source/data/main-news.json");
-  loadFAQ("faq-pollen", "/source/data/faq-pollen.json");
+  loadNews("source/data/main-news.json");
+  loadFAQ("faq-pollen", "source/data/faq-pollen.json");
   buttonTop();
 });
 

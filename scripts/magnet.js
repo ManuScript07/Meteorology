@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   setupCityModal();
   updateMagnetData(savedCity);
-  loadNews("/source/data/main-news.json");
-  loadFAQ("faq-magnet", "/source/data/faq-magnet.json");
+  loadNews("source/data/main-news.json");
+  loadFAQ("faq-magnet", "source/data/faq-magnet.json");
   buttonTop();
 });
 

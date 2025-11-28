@@ -34,7 +34,7 @@ function getMoonIcon(phase) {
     "Старая Луна": "waning-crescent.svg"
   };
   console.log(phase);
-  return `/source/moon/${icons[phase] || "new-moon.svg"}`;
+  return `source/moon/${icons[phase] || "new-moon.svg"}`;
 }
 
 function renderCurrentMoon() {
@@ -201,7 +201,7 @@ function renderMoonDetails(data) {
 }
 
 export async function updateMoonData(city) {
-  const res = await fetch("/source/moon/moon_data.json");
+  const res = await fetch("source/moon/moon_data.json");
   moonRawData = await res.json();
 
   const now = new Date();
@@ -225,7 +225,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   setupCityModal();
   updateMoonData(savedCity);
-  loadNews("/source/data/main-news.json");
-  loadFAQ("faq-moon", "/source/data/faq-moon.json");
+  loadNews("source/data/main-news.json");
+  loadFAQ("faq-moon", "source/data/faq-moon.json");
   buttonTop();
 });

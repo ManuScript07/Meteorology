@@ -13,6 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
   initNotifications();
   updateWeatherData(savedCity);
   setupCityModal();
-  loadNews("/source/data/main-news.json");
+  loadNews("source/data/main-news.json");
   buttonTop();
 });
