@@ -19,13 +19,11 @@ export function generateBars(containerId, data, levelNames, options = {}) {
       labels?.[i] ??
       (days ? days[d.getDay()] : d.toLocaleDateString("ru-RU", { weekday: "short" }));
 
-    // === Элемент столбца ===
     const bar = document.createElement("div");
     bar.className = "bar";
     bar.dataset.level = level;
     bar.style.animationDelay = `${i * 0.05}s`;
 
-    // === Всплывающая подсказка ===
     const tooltip = document.createElement("div");
     tooltip.className = "tooltip";
     tooltip.textContent = showDate
@@ -33,7 +31,6 @@ export function generateBars(containerId, data, levelNames, options = {}) {
       : `${levelNames[level] || ""}`;
     bar.appendChild(tooltip);
 
-    // === Только для магнитного поля: добавить цифру ===
     if (isMagnetOrUv) {
       const value = document.createElement("div");
       value.className = "bar-value";
@@ -41,7 +38,6 @@ export function generateBars(containerId, data, levelNames, options = {}) {
       bar.appendChild(value);
     }
 
-    // === Подпись под столбиком (день/час) ===
     const label = document.createElement("div");
     label.className = "bar-label no-anim";
     label.textContent = labelText;
@@ -51,6 +47,3 @@ export function generateBars(containerId, data, levelNames, options = {}) {
   });
 }
 
-export function updateBarLabal(){
-  
-}

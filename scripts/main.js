@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const savedCity = localStorage.getItem("selectedCity") || "Москва";
   
   currentCity.textContent = savedCity || "Москва";
+  
   initNotifications();
   updateWeatherData(savedCity);
   setupCityModal();

@@ -29,7 +29,6 @@
   to { transform: scaleY(1); }
 }
 
-/* Цвета и высоты (по уровням) */
 .bar[data-level="0"] { background: rgba(255,255,255,0.15); height: 10px; }
 .bar[data-level="1"] { background: #ffd54f; height: 50px; }
 .bar[data-level="2"] { background: #ff9800; height: 100px; }

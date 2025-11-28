@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Погода</title>
-    <link rel="icon" type = "image\png" href="/source/favicon.png">
+    <link rel="icon" type = "image\png" href="source/favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/magnet.css">
+    <link rel="stylesheet" href="styles/uv.css">
 </head>
 <body>
     <div id="Top"></div>
     <header>
         <div class="header-inner">
-             <a href="/index.html">
+            <a href="index.html">
                 <div class = "logo-block">
-                    <img src="/source/favicon.png" alt="Логотиип">
+                    <img src="source/favicon.png" alt="Логотиип">
                     <div class="logo-text">
                         <h1 class="site-name">Метеорология</h1>
                         <p><i>Погода Советы Новости</i></p>
@@ -30,11 +30,11 @@
             </label>
             <nav>
                 <ul>
-                    <li><a href="/index.html#Weather-now">Сейчас</a></li>
-                    <li><a href="/index.html#Today">Сегодня</a></li>
-                    <li><a href="/index.html#Tomorrow">Завтра</a></li>
-                    <li><a href="/index.html#ForecastForTheWeek">Неделя</a></li>
-                    <li><a href="/index.html#Advice">Советы</a></li>
+                    <li><a href="index.html#Weather-now">Сейчас</a></li>
+                    <li><a href="index.html#Today">Сегодня</a></li>
+                    <li><a href="index.html#Tomorrow">Завтра</a></li>
+                    <li><a href="index.html#ForecastForTheWeek">Неделя</a></li>
+                    <li><a href="index.html#Advice">Советы</a></li>
                     <li><a href="#Review">Новости</a></li>
                     <li><a href="#Other">О нас</a></li>
                 </ul>
@@ -105,46 +105,89 @@
                 </div>
             </div>
             <div class="content-container">
-            <div class="magnet-container">
-                <section class="magnet-section">
-                    <div class="magnet-header">
-                        <div class="magnet-scale">
-                            <svg viewBox="0 0 96 77" xmlns="http://www.w3.org/2000/svg">
-                                <path class="scale-bg" d="M11.45 72.5a44 44 0 1 1 73.1 0" />
-                                <path class="scale-fill" d="M11.45 72.5a44 44 0 1 1 73.1 0" />
-                            </svg>
-                            <div class="scale-description">
-                                <span class="scale-value" title="Спокойное">2</span>
-                                <span class="scale-caption">Kp</span>
-                            </div>
+            <div class="uv-container">
+                <section class="uv-section">
+                    <div class="uv-header-wrapper">
+                    <div class="uv-header">
+                        <h3>Уф-индекс</h3>
+                        <div class="uv-days">
+                            <ul class="uv-day-list">
+                                <li class="uv-day active">
+                                <span class="uv-dot" style="background: rgb(51, 193, 21)"></span>
+                                Сегодня
+                                </li>
+                                <li class="uv-day">
+                                <span class="uv-dot" style="background: rgb(255, 212, 0)"></span>
+                                Завтра
+                                </li>
+                                <li class="uv-day">
+                                <span class="uv-dot" style="background: rgb(255, 126, 1)"></span>
+                                Ср, 6
+                                </li>
+                                <li class="uv-day">
+                                <span class="uv-dot" style="background: rgb(195, 1, 1)"></span>
+                                Чт, 7
+                                </li>
+                                <li class="uv-day">
+                                <span class="uv-dot" style="background: rgb(87, 52, 141)"></span>
+                                Пт, 8
+                                </li>
+                            </ul>
                         </div>
 
-                        <div class="magnet-info">
-                            <h2>Геомагнитное поле в городе </h2>
-                            <div>
-                                <span class="state-label calm">Спокойное</span>
-                                <span>7 ноября после 0:00 будет слабая магнитная буря</span>
+                        <div class="uv-info">
+                        <div class="uv-info-left">
+                            <h3>УФ-индекс</h3>
+                            <div class="uv-status">
+                                <span>Сегодня </span>
+                                <span class="uv-level-circle low">2</span>
                             </div>
+                            <p class="uv-description">Солнце доброе, защита не нужна</p>
+                        </div>
+
+                        <div class="uv-info-right">
+                            <div class="uv-circle-indicator low"></div>
+                        </div>
                         </div>
                     </div>
-                    <section class="magnet-forecast">
-                        <div class="magnet-day">
-                            <h4>Сегодня <span class="date">7 ноября</span></h4>
-                            <div class="magnet-bars" id="magnetBarsToday"></div>
+                    </div>
+
+                    <div class="uv-chart-section">
+                        <div class="bar-chart" id="uvBars"></div>
+                    </div>
+                    <div class="uv-legend">
+                        <h3>Какой бывает УФ-индекс</h3>
+                        <div class="uv-legend-items">
+                        <div class="uv-legend-item">
+                            <span class="uv-legend-circle low"></span>
+                            <span class="uv-index">0–2</span>
+                            <span class="uv-level">Низкий</span>
                         </div>
-                        <div class="magnet-day">
-                            <h4>Завтра <span class="date">8 ноября</span></h4>
-                            <div class="magnet-bars" id="magnetBarsTomorrow"></div>
+                        <div class="uv-legend-item">
+                            <span class="uv-legend-circle moderate"></span>
+                            <span class="uv-index">3–5</span>
+                            <span class="uv-level">Умеренный</span>
                         </div>
-                        <div class="magnet-day">
-                            <h4>Пятница <span class="date">9 ноября</span></h4>
-                            <div class="magnet-bars" id="magnetBarsAfter"></div>
+                        <div class="uv-legend-item">
+                            <span class="uv-legend-circle high"></span>
+                            <span class="uv-index">6–7</span>
+                            <span class="uv-level">Высокий</span>
                         </div>
-                    </section>
+                        <div class="uv-legend-item">
+                            <span class="uv-legend-circle very-high"></span>
+                            <span class="uv-index">8–10</span>
+                            <span class="uv-level">Очень высокий</span>
+                        </div>
+                        <div class="uv-legend-item">
+                            <span class="uv-legend-circle extreme"></span>
+                            <span class="uv-index">11+</span>
+                            <span class="uv-level">Экстремальный</span>
+                        </div>
+                        </div>
+                    </div>
                 </section>
 
-
-                <section id="faq-magnet" class="faq-section"></section>
+                <section id="faq-uv" class="faq-section"></section>
             </div>
 
             <section class="section-review" id="Review">
@@ -270,7 +313,7 @@
             <div class="footer-column">
             <h3>Навигация</h3>
             <ul>
-                <li><a href="/index.html#Weather-now">Прогноз погоды</a></li>
+                <li><a href="index.html#Weather-now">Прогноз погоды</a></li>
                 <li><a href="pollen.html">Активность пыльцы</a></li>
                 <li><a href="magnet.html">Магнитное поле</a></li>
                 <li><a href="uv.html">Ультрафиолет</a></li>
@@ -300,6 +343,6 @@
         <p class="copyright"><small>© 2025 Метеорология. Все права защищены.</small></p>
     </footer>
     
-    <script type="module" src="/scripts/magnet.js"></script>
+    <script type="module" src="scripts/uv.js"></script>
 </body>
 </html>

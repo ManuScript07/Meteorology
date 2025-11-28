@@ -23,7 +23,6 @@ function renderFAQ(sectionId, data) {
   const container = document.createElement("div");
   container.classList.add("faq-grid");
 
-  // создаём три колонки (адаптивно можно подстраивать под ширину)
   const columnCount = 2;
   const columns = Array.from({ length: columnCount }, () => {
     const col = document.createElement("div");
@@ -32,7 +31,6 @@ function renderFAQ(sectionId, data) {
     return col;
   });
 
-  // распределяем карточки по колонкам
   data.items.forEach((item, index) => {
     const col = columns[index % columnCount];
 

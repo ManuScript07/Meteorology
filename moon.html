@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Погода</title>
-    <link rel="icon" type = "image\png" href="/source/favicon.png">
+    <link rel="icon" type = "image\png" href="source/favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/uv.css">
+    <link rel="stylesheet" href="styles/moon.css">
 </head>
 <body>
     <div id="Top"></div>
     <header>
         <div class="header-inner">
-            <a href="/index.html">
+             <a href="index.html">
                 <div class = "logo-block">
-                    <img src="/source/favicon.png" alt="Логотиип">
+                    <img src="source/favicon.png" alt="Логотиип">
                     <div class="logo-text">
                         <h1 class="site-name">Метеорология</h1>
                         <p><i>Погода Советы Новости</i></p>
@@ -30,11 +30,11 @@
             </label>
             <nav>
                 <ul>
-                    <li><a href="/index.html#Weather-now">Сейчас</a></li>
-                    <li><a href="/index.html#Today">Сегодня</a></li>
-                    <li><a href="/index.html#Tomorrow">Завтра</a></li>
-                    <li><a href="/index.html#ForecastForTheWeek">Неделя</a></li>
-                    <li><a href="/index.html#Advice">Советы</a></li>
+                    <li><a href="index.html#Weather-now">Сейчас</a></li>
+                    <li><a href="index.html#Today">Сегодня</a></li>
+                    <li><a href="index.html#Tomorrow">Завтра</a></li>
+                    <li><a href="index.html#ForecastForTheWeek">Неделя</a></li>
+                    <li><a href="index.html#Advice">Советы</a></li>
                     <li><a href="#Review">Новости</a></li>
                     <li><a href="#Other">О нас</a></li>
                 </ul>
@@ -105,89 +105,75 @@
                 </div>
             </div>
             <div class="content-container">
-            <div class="uv-container">
-                <section class="uv-section">
-                    <div class="uv-header-wrapper">
-                    <div class="uv-header">
-                        <h3>Уф-индекс</h3>
-                        <div class="uv-days">
-                            <ul class="uv-day-list">
-                                <li class="uv-day active">
-                                <span class="uv-dot" style="background: rgb(51, 193, 21)"></span>
-                                Сегодня
-                                </li>
-                                <li class="uv-day">
-                                <span class="uv-dot" style="background: rgb(255, 212, 0)"></span>
-                                Завтра
-                                </li>
-                                <li class="uv-day">
-                                <span class="uv-dot" style="background: rgb(255, 126, 1)"></span>
-                                Ср, 6
-                                </li>
-                                <li class="uv-day">
-                                <span class="uv-dot" style="background: rgb(195, 1, 1)"></span>
-                                Чт, 7
-                                </li>
-                                <li class="uv-day">
-                                <span class="uv-dot" style="background: rgb(87, 52, 141)"></span>
-                                Пт, 8
-                                </li>
-                            </ul>
+            <div slass="moon-container">
+                <section class="moon-section">
+                    <div class="moon-header">
+                        <img class="moon-now" src="source/moon/full-moon.svg" alt="moon">
+                        <div class="moon-description-now">
+                            <p class="moon-date">Пт, 8 ноября</p>
+                            <h2 class="moon-type">Убывающая Луна</h2>
                         </div>
+                    </div>
 
-                        <div class="uv-info">
-                        <div class="uv-info-left">
-                            <h3>УФ-индекс</h3>
-                            <div class="uv-status">
-                                <span>Сегодня </span>
-                                <span class="uv-level-circle low">2</span>
+                    <div class="moon-parameters-now">
+                        <div class="param visibility">
+                            <p class="title">Видимость</p>
+                            <p class="value">68%</p>
+                        </div>
+                        <div class="param age">
+                            <p class="title">Возраст</p>
+                            <p class="value">18 дней</p>
+                        </div>
+                        <div class="param moonrise">
+                            <p class="title">Восход</p>
+                            <p class="value">22:47</p>
+                        </div>
+                        <div class="param moonset">
+                            <p class="title">Заход</p>
+                            <p class="value">12:35</p>
+                        </div>
+                    </div>
+
+                    <p class="moon-loop-description">
+                        Текущий лунный цикл начался 21 октября. Новолуние наступит 20 ноября, а полнолуние 5 декабря.
+                    </p>
+
+                    <h2 class="phase-h">Фазы Луны</h2>
+
+                    <div class="moon-calendar">
+                        <div class="calendar-grid" id="calendarGrid">
+                        </div>
+                    </div>
+
+                    <div class="moon-container-on">
+                        <div class="moon-title">
+                            <img class="moon-on" src="source/moon/first-quarter.svg" alt="moon">
+                            <div class="moon-description-on">
+                                <p class="date">8 ноября</p>
+                                <p class="type">Убывающая Луна</p>
                             </div>
-                            <p class="uv-description">Солнце доброе, защита не нужна</p>
                         </div>
-
-                        <div class="uv-info-right">
-                            <div class="uv-circle-indicator low"></div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-
-                    <div class="uv-chart-section">
-                        <div class="bar-chart" id="uvBars"></div>
-                    </div>
-                    <div class="uv-legend">
-                        <h3>Какой бывает УФ-индекс</h3>
-                        <div class="uv-legend-items">
-                        <div class="uv-legend-item">
-                            <span class="uv-legend-circle low"></span>
-                            <span class="uv-index">0–2</span>
-                            <span class="uv-level">Низкий</span>
-                        </div>
-                        <div class="uv-legend-item">
-                            <span class="uv-legend-circle moderate"></span>
-                            <span class="uv-index">3–5</span>
-                            <span class="uv-level">Умеренный</span>
-                        </div>
-                        <div class="uv-legend-item">
-                            <span class="uv-legend-circle high"></span>
-                            <span class="uv-index">6–7</span>
-                            <span class="uv-level">Высокий</span>
-                        </div>
-                        <div class="uv-legend-item">
-                            <span class="uv-legend-circle very-high"></span>
-                            <span class="uv-index">8–10</span>
-                            <span class="uv-level">Очень высокий</span>
-                        </div>
-                        <div class="uv-legend-item">
-                            <span class="uv-legend-circle extreme"></span>
-                            <span class="uv-index">11+</span>
-                            <span class="uv-level">Экстремальный</span>
-                        </div>
+                        <div class="moon-parameters-on">
+                            <div class="param-on visibility">
+                                <p class="title">Видимость</p>
+                                <p class="value">68%</p>
+                            </div>
+                            <div class="param-on age">
+                                <p class="title">Возраст</p>
+                                <p class="value">18 дней</p>
+                            </div>
+                            <div class="param-on moonrise">
+                                <p class="title">Восход</p>
+                                <p class="value">22:47</p>
+                            </div>
+                            <div class="param-on moonset">
+                                <p class="title">Заход</p>
+                                <p class="value">12:35</p>
+                            </div>
                         </div>
                     </div>
                 </section>
-
-                <section id="faq-uv" class="faq-section"></section>
+                <section id="faq-moon" class="faq-section"></section>
             </div>
 
             <section class="section-review" id="Review">
@@ -273,7 +259,6 @@
         </section>
         </div>
         </div>
-        </div>
         <a href="#Top" id = "button__top">
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1586f7">
                 <path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"/>
@@ -313,7 +298,7 @@
             <div class="footer-column">
             <h3>Навигация</h3>
             <ul>
-                <li><a href="/index.html#Weather-now">Прогноз погоды</a></li>
+                <li><a href="index.html#Weather-now">Прогноз погоды</a></li>
                 <li><a href="pollen.html">Активность пыльцы</a></li>
                 <li><a href="magnet.html">Магнитное поле</a></li>
                 <li><a href="uv.html">Ультрафиолет</a></li>
@@ -343,6 +328,6 @@
         <p class="copyright"><small>© 2025 Метеорология. Все права защищены.</small></p>
     </footer>
     
-    <script type="module" src="/scripts/uv.js"></script>
+    <script type="module" src="scripts/moon.js"></script>
 </body>
 </html>

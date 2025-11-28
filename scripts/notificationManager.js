@@ -21,19 +21,53 @@ class NotificationManager {
     this.badge = document.querySelector(badgeSelector);
     this.container = document.querySelector(containerSelector);
     this.header = this.container?.querySelector(".header");
-    this.maxItems = 10;
+
+    this.maxItems = Infinity;
+
     this.paused = false;
 
     this.counter = this.list?.children.length || 0;
+    
     this.updateNumbers();
+
+    this.list?.querySelectorAll("li").forEach(li => {
+      if (!li.querySelector(".close-btn")) {
+        const btn = document.createElement("button");
+        btn.className = "close-btn";
+        btn.innerHTML = "&times;";
+        li.prepend(btn);
+      }
+    });
+
     this.updateBadge();
 
-    if (this.header) {
-      this.header.addEventListener(
-        "click",
-        delayDecorator(() => this.pauseNotifications(), 10000)
-      );
-    }
+    this.list?.addEventListener("click", (event) => {
+      const btn = event.target.closest(".close-btn");
+      if (!btn) return;
+
+      const li = btn.closest("li");
+      if (!li) return;
+
+      li.classList.add("fade-out");
+
+      setTimeout(() => {
+        li.remove();
+
+        this.count = this.list.children.length;
+
+        if (this.list.children.length === 0) {
+          this.updateNumbers();
+        }
+
+      }, 300);
+    });
+
+    // if (this.header) {
+    //   this.header.addEventListener(
+    //     "click",
+    //     delayDecorator(() => this.pauseNotifications(), 10000)
+    //   );
+    // }
   }
 
   get count() {
@@ -41,7 +75,7 @@ class NotificationManager {
   }
 
   set count(value) {
-    this.counter = Math.min(value, this.maxItems);
+    this.counter = value;
     this.updateBadge();
   }
 
@@ -49,28 +83,27 @@ class NotificationManager {
     if (!this.list || this.paused) return;
 
     const li = document.createElement("li");
-    li.textContent = text;
+
+    const closeBtn = document.createElement("button");
+    closeBtn.className = "close-btn";
+    closeBtn.innerHTML = "&times;";
+    li.appendChild(closeBtn);
+
+    const span = document.createElement("span");
+    span.textContent = text;
+    li.appendChild(span);
 
     setTimeout(() => li.classList.add("incoming"), 200);
 
-    this.list.insertBefore(li, this.list.firstChild);
-
-    if (this.list.children.length > this.maxItems) {
-      const last = this.list.lastElementChild;
-      last.classList.add("fade-out");
-      setTimeout(() => {
-        if (last.parentNode) last.remove();
-        this.updateNumbers();
-        this.count = this.list.children.length;
-      }, 300);
-    }
+   this.list.insertBefore(li, this.list.firstChild);
 
     this.count = this.list.children.length;
+
     this.updateNumbers();
 
     li.addEventListener("animationend", () => li.classList.remove("incoming"));
 
-    showNotification({message: text, type: "info", duration: 1500})
+    showNotification({ message: text, type: "info", duration: 1500 });
   }
 
   updateBadge() {
@@ -90,18 +123,18 @@ class NotificationManager {
   pauseNotifications() {
     if (this.paused) return;
 
-    console.log("⏸️ Уведомления приостановлены на 10 секунд");
+    console.log("Уведомления приостановлены на 10 секунд");
     this.paused = true;
     this.container?.classList.add("paused");
 
     setTimeout(() => {
       this.paused = false;
       this.container?.classList.remove("paused");
-      console.log("▶️ Уведомления возобновлены");
+      console.log("Уведомления возобновлены");
     }, 10000);
   }
 
-  start(interval = 3000) {
+  start(interval = 30000) {
     if (!this.list || !this.badge) return;
 
     this.updateNumbers();
@@ -116,5 +149,6 @@ class NotificationManager {
 
 export function initNotifications() {
   const manager = new NotificationManager(".notification .list", ".notification .badge");
-  manager.start(3000);
+
+  manager.start(10000);
 }
